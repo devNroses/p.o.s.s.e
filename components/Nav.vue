@@ -8,21 +8,52 @@
     <div>
       <ol>
         <li><NuxtLink to="/about">About</NuxtLink></li>
-        <li><NuxtLink to="/sevices">Services</NuxtLink></li>
+        <li><NuxtLink to="/services">Services</NuxtLink></li>
         <li><NuxtLink to="/tutoring">Tutoring</NuxtLink></li>
         <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
         <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
       </ol>
 
-      <div class="nav-mobile">
+      <div class="nav-mobile" @click.prevent="toggleShowMenu">
         <div></div>
         <div></div>
         <div></div>
+      </div>
+
+      <div
+        class="nav-mobile-menu"
+        :class="{ 'nav-mobile-menu-show': show }"
+        @click.prevent="toggleShowMenu"
+      >
+        <div class="nav-mobile-menu-list">
+          <ol>
+            <li><NuxtLink to="/about">About</NuxtLink></li>
+            <li><NuxtLink to="/services">Services</NuxtLink></li>
+            <li><NuxtLink to="/tutoring">Tutoring</NuxtLink></li>
+            <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
+            <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
+          </ol>
+        </div>
       </div>
     </div>
   </nav>
 </template>
 
+<script lang="ts">
+import Vue from "vue";
+export default Vue.extend({
+  data() {
+    return {
+      show: false
+    };
+  },
+  methods: {
+    toggleShowMenu() {
+      this.show = !this.show;
+    }
+  }
+});
+</script>
 <style lang="scss">
 .nav {
   &-container {
@@ -35,7 +66,7 @@
     a {
       color: #566050;
       font-size: 20px;
-      transition: 0.5s ease-in-out;
+      transition: color 0.5s ease-in-out;
       text-decoration: none;
 
       &:hover {
@@ -98,6 +129,48 @@
     }
     @media only screen and (max-width: 820px) {
       display: block;
+    }
+
+    &-menu {
+      position: fixed;
+      background: #849c7a;
+      top: -200%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: top 0.8s ease-in-out;
+
+      &-show {
+        top: 0;
+      }
+
+      &-list {
+        width: 500px;
+        display: flex;
+        text-align: center;
+
+        ol {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          margin: 0 auto;
+
+          li {
+            padding: 0 !important;
+            line-height: 1.5;
+            a {
+              font-size: 30px;
+              font-weight: bold;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
     }
   }
 }
