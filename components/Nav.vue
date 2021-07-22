@@ -20,22 +20,30 @@
 </template>
 
 <style lang="scss">
+$base-navColor: #383f34;
+$base-hoverColor: #d5b9b2;
+$base-navMobileColor: #849c7a;
+
 .nav {
   &-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px;
-    color: #566050;
+    color: $base-navColor;
+    position: sticky;
+    top: 0;
+    z-index: 100; // override plugin for slider
+    background: rgba(228, 240, 216, 0.7);
 
     a {
-      color: #566050;
+      color: $base-navColor;
       font-size: 20px;
       transition: color 0.5s ease-in-out;
       text-decoration: none;
 
       &:hover {
-        color: #bcddac;
+        color: $base-hoverColor;
       }
     }
 
@@ -71,19 +79,19 @@
 
   &-mobile {
     display: none;
-    border: 1px solid #849c7a;
+    border: 1px solid $base-navMobileColor;
     padding: 10px;
     border-radius: 30%;
     transition: 0.5s ease-in-out;
 
     &:hover {
-      background: #849c7a;
+      background: $base-navMobileColor;
       cursor: pointer;
     }
     div {
-      border: 1px solid #d5b9b2;
+      border: 1px solid $base-hoverColor;
       border-radius: 20%;
-      background: #d5b9b2;
+      background: $base-hoverColor;
       width: 20px;
       height: 2px;
       margin-bottom: 4px;
@@ -98,7 +106,7 @@
 
     &-menu {
       position: fixed;
-      background: #849c7a;
+      background: $base-navMobileColor;
       top: -200%;
       left: 0;
       right: 0;
