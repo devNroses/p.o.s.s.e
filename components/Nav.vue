@@ -130,6 +130,8 @@ $base-navMobileColor: #849c7a;
         width: 500px;
         display: flex;
         text-align: center;
+        justify-content: center;
+        align-items: center;
 
         ol {
           display: flex;

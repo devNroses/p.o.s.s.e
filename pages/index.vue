@@ -122,6 +122,7 @@ export default Vue.extend({
     .slider {
       height: 100% !important;
       max-height: 600px !important;
+      z-index: -1 !important;
     }
   }
 
