@@ -145,7 +145,7 @@ export default Vue.extend({
       padding: 0 5px;
       margin-bottom: 5px;
       font-size: 16px;
-      max-width: 600px;
+      max-width: 800px;
     }
 
     img {
