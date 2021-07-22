@@ -51,6 +51,7 @@
         <span> Executive Director</span>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
