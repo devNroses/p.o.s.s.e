@@ -39,6 +39,7 @@ $footerColor: #e4f0d8;
     background-color: $footerBackground;
     color: #e4f0d8;
     bottom: 0;
+    flex-wrap: wrap;
 
     div {
       width: 380px;
