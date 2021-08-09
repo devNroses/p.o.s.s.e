@@ -267,6 +267,11 @@ San Diego, CA 92127`,
       margin: 10px;
       padding: 25px;
       text-align: center;
+      min-height: 100px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
     }
   }
 }
