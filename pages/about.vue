@@ -133,7 +133,6 @@
 
       div {
         &:first-child {
-          min-width: 380px;
           max-width: 760px;
           h1 {
             font-size: 36px;
@@ -170,7 +169,7 @@
       justify-content: space-evenly;
       flex-wrap: wrap;
       padding: 15px;
-      margin-left: -15px;
+      margin: 0 -20px;
 
       div {
         width: 380px;
@@ -181,7 +180,11 @@
         border: 1px solid #ccc;
         border-radius: 10px;
         flex-direction: column;
-        margin: 10px 0px;
+        margin: 10px auto;
+
+        @media only screen and (max-width: 500px) {
+          height: auto !important;
+        }
 
         h3 {
           margin: -10px auto -5px;
@@ -206,7 +209,6 @@
 
     p {
       max-width: 700px;
-      min-width: 380px;
       line-height: 1.25;
     }
   }
