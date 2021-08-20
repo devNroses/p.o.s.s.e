@@ -72,7 +72,6 @@
 
 <script lang="ts">
 import Vue from "vue";
-import { Slider, SliderItem } from "vue-easy-slider";
 
 export default Vue.extend({
   data() {
