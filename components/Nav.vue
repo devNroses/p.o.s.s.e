@@ -11,7 +11,6 @@
         <li><NuxtLink to="/services">Services</NuxtLink></li>
         <li><NuxtLink to="/tutoring">Tutoring</NuxtLink></li>
         <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
-        <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
       </ol>
 
       <MobileNav />
@@ -35,6 +34,7 @@ $base-navMobileColor: #849c7a;
     top: 0;
     z-index: 100; // override plugin for slider
     background: rgba(228, 240, 216, 0.7);
+    backdrop-filter: blur(5px);
 
     a {
       color: $base-navColor;
