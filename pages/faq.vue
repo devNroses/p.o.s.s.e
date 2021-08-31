@@ -80,8 +80,6 @@ The last reference raises serious question about whether an ability-achievement 
   },
   methods: {
     setQuestionIndex(id: any) {
-      console.log("Faqs", this.faqs);
-      console.log(id);
       this.showByIndex = id;
     }
   }
@@ -117,6 +115,12 @@ The last reference raises serious question about whether an ability-achievement 
       margin: 15px;
       cursor: pointer !important;
       margin: 25px 0px;
+      transition: color 0.5s ease-in-out;
+
+      &:hover {
+        cursor: pointer;
+        color: #e4f0d8;
+      }
     }
   }
 

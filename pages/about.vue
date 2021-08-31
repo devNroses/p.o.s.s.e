@@ -210,6 +210,7 @@
     p {
       max-width: 700px;
       line-height: 1.25;
+      text-align: center;
     }
   }
 }
