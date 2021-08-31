@@ -107,12 +107,12 @@ $base-navMobileColor: #849c7a;
     &-menu {
       position: fixed;
       background: $base-navMobileColor;
-      top: -200%;
+      top: -200vh;
       left: 0;
       right: 0;
       bottom: 0;
       width: 100%;
-      height: 100%;
+      height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -124,7 +124,6 @@ $base-navMobileColor: #849c7a;
 
       &-show {
         top: 0;
-        height: 100vh;
       }
 
       &-list {
