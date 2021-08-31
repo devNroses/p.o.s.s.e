@@ -124,6 +124,7 @@ $base-navMobileColor: #849c7a;
 
       &-show {
         top: 0;
+        height: 100vh;
       }
 
       &-list {
