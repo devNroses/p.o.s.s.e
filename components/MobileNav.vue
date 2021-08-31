@@ -17,7 +17,6 @@
           <li><NuxtLink to="/services">Services</NuxtLink></li>
           <li><NuxtLink to="/tutoring">Tutoring</NuxtLink></li>
           <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
-          <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
         </ol>
       </div>
     </div>
