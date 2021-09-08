@@ -135,6 +135,15 @@ Solana Beach, CA 92014`,
         website: null,
         phone: "858-259-3206",
         contact: null
+      },
+      {
+        name: "Member of Voices of Healthy Kids",
+        jobType: null,
+        roomLocation: null,
+        address: null,
+        website: "www.voicesforhealthykids.org",
+        phone: null,
+        contact: null
       }
     ];
     return {
