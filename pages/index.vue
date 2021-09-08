@@ -22,33 +22,39 @@
       <div class="landing-message">
         <h1>Welcome Parents</h1>
         <p>
-          We are here to assist you with your son or daughter’s educational
-          needs and to empower you with the knowledge of how the educational
-          maze is structured so your child can be successful in their journey
-          onto college.
+          Welcome to Parents of Students in Special Education, also known as
+          P.O.S.S.E. We are here to assist you with your son or daughter’s
+          educational needs and to empower you with the knowledge of how the
+          educational maze is structured so your child can be successful in
+          their journey onto college.
         </p>
         <p>
-          Our Vision is to reduce the drop out and retention rate for children
+          Our vision is to reduce the drop out and retention rate for children
           with learning disabilities that attend our public schools. With this
           goal in mind, our Mission is to create educational opportunities for
           children grades 3-12 with learning disabilities by advocating for
           effective research-based learning programs that will promote the
-          success and dignity of our children. P.O.S.S.E. also is here to assist
+          success and dignity of our children. P.O.S.S.E. is also here to assist
           with the development of these children into proficient and independent
-          learners as they transition from high school to college.
+          learners as they transition from high school to college. The bottom
+          line is School Districts must provide special education and related
+          services to eligible students with disabilities in accordance with
+          their I.E.P. [Individualized Educational Plan] developed to meet their
+          “Individual Needs” and implementing the I.E.P. developed under IDEA.
         </p>
         <p>
-          P.O.S.S.E is premised on the belief that the key to effective
+          P.O.S.S.E. is premised on the belief that the key to effective
           educational programs for children with learning disabilities is
-          collaboration—as equals—by parents and educators.
+          collaboration - as - equals by parents and educators.
         </p>
         <p>
           We look forward to working with you.
         </p>
+        <p>
+          Sincerely,
+        </p>
 
-        <img src="~/assets/imgs/POSSE_sig1.png" alt="Marlena Vaughn Director" />
-        <span>Marlena Vaughn</span>
-        <span> Executive Director</span>
+        <span>Marlena Vaughn, Executive Director</span>
       </div>
     </div>
     <Footer />

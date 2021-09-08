@@ -120,41 +120,21 @@ export default Vue.extend({
         name: "Dr. Lynne Thrope, Ph.D.",
         jobType: "Reading Therapist",
         roomLocation: "The Reading Room",
-        address: `2341-A Needham Road
-          El Cajon, CA 92020`,
+        address: `8383 Center Drive, Suite B, La Mesa, CA 91942`,
         website: "www.thereadingroom.net",
         phone: "6194643647",
         contact: null
       },
+
       {
-        name: "Susan Monken",
-        jobType: "Educational Consultant",
-        roomLocation: "The Reading Room",
-        address: `705 Fresca Street
-Solana Beach, CA 92075`,
-        website: "www.susanmonken.com",
-        phone: "8583440401",
-        contact: "smonken@gmail.com"
-      },
-      {
-        name: "Dana Tappen",
-        jobType: "Speech & Language Therapist",
-        roomLocation: "Total Education Services",
-        address: `5151 Murphy Canyon Road, Suite 150
-San Diego, California 92123`,
-        website: "www.thereadingroom.net",
-        phone: "6192754522",
-        contact: "dtappen@tesidea.com"
-      },
-      {
-        name: "John W. Dupler, PhD, BCIA",
-        jobType: "Neurofeedback, Neuro–Imaging Assessment",
+        name: "Lindamood-Bell Academy",
+        jobType: null,
         roomLocation: null,
-        address: `16935 W. Bernardo Drive, Suite 238
-San Diego, CA 92127`,
+        address: `445 Marine View Avenue Unit 290
+Solana Beach, CA 92014`,
         website: null,
-        phone: null,
-        contact: "neuro@cox.net"
+        phone: "858-259-3206",
+        contact: null
       }
     ];
     return {

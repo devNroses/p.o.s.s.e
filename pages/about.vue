@@ -42,10 +42,8 @@
             son’s feelings of failure, she was left, through trial and error, to
             close the education gap and make certain that the appropriate
             learning programs and remediation for her son’s needs were
-            implemented. After four years of setbacks her 19-year-old son is
-            reading at grade level and graduated with his class on June 14, 2008
-            and is attending Grossmont College. He is preparing to enter Berklee
-            School of Music in Boston.<br /><br />
+            implemented. He is preparing to enter Berklee School of Music in
+            Boston.<br /><br />
             She witnessed first-hand the agony, struggles and sleepless nights
             and days of “living” at his school to ensure that his educational
             needs were met. For more than a decade the family had struggled with
@@ -57,11 +55,12 @@
           <p>
             The maze they traveled for academic success resulted in a strong
             desire to make the road easier for other families in similar
-            situations. Michael’s dream was to fulfill that no child had to
-            experience what he did and that every child deserves to enjoy their
-            younger years at school and have that everlasting memory of history
-            to pass onto their children and Michael wanted me to put this in
-            motion -- Thus, P.O.S.S.E was formed.
+            situations. Michael’s dream was for his mother to help other
+            children not have to experience the frustration, struggles that he
+            had to endure through his educational journey but to be able to
+            enjoy their younger years at school and have that everlasting memory
+            of school to pass onto their children. Michael wanted me to put this
+            in Motion -- Thus, P.O.S.S.E. was formed.
           </p>
         </div>
       </div>
@@ -69,36 +68,30 @@
       <div class="about-characterize">
         <h2>CHARACTERIZING LEARNING DISABILITES</h2>
         <p>
-          Learning disabilities in school children are characterized by a
-          significant difference in achievement as compared to his or her
-          overall intelligence. While quite normal, even above average or
-          exceptional in many respects, children with learning disabilities tend
-          to interpret differently what they see or hear. They are often
-          oriented differently to relationships in space and time, and may show
-          poor coordination, lapses of memory, and disorganized thinking.
-          Although neurological tests, as a rule, show no abnormalities, these
-          children are often far behind their age peers in reading, spelling,
-          writing, and math.
+          A Learning Disability cannot be cured or fixed; it is a lifelong
+          challenge. However, with the appropriate support, intervention and
+          remediation children with learning disabilities can achieve success in
+          school. “Learning Disabilities” is an “umbrella” term describing a
+          number of other, more specific learning disabilities, such as dyslexia
+          and dysgraphia. This is why learning disabilities are referred to as
+          “hidden disabilities”: the child looks perfectly “normal” and seems to
+          be a very bright and intelligent child, yet may be unable to
+          demonstrate the skill level expected from a child of a similar age.
         </p>
-
         <p>
-          Children whose educational needs are not being met often experience
-          lives of frustration, confusion, and unwarranted failure. Many reach a
-          point of being dysfunctional in a traditional classroom or special
-          education program. They are often angry at the system, for it seems
-          they fail no matter how hard they try. Some give up and just stop
-          working. Without appropriate educational intervention, the prospects
-          are very slim for children with learning disabilities successfully
-          completing school and living fulfilling lives as productive citizens.
-        </p>
-
-        <p>
-          The bitter irony is that, despite the inability of these children to
-          perform well in conventional school programs, they are typically
-          neither lazy nor not intelligent. In fact, they are often quite
-          bright, gifted with unique talents, and very eager to learn. The
-          problem is not that they are unable to learn traditional school and
-          social skills, but that they can't learn them in the traditional way.
+          Some types of Learning Disabilities: Dyscalculia affects a child’s
+          ability to understand numbers in math; Dysgraphia affects a child’s
+          handwriting ability and fine more skills; Dyslexia affects reading and
+          related language-based processing skills; Nonverbal Learning
+          Disabilities a child has trouble interpreting nonverbal cues like
+          facial expressions or body language and may have poor coordination;
+          Oral/Written Language Disorder and Specific Reading Comprehension
+          Deficit affects a child’s understanding what they read or of spoken
+          language; ADHD is hard for a child to stay focused and paying
+          attention, controlling behavior and hyperactivity; Dyspraxia causes
+          problems with movement and coordination language and speech; Executive
+          Functioning affects planning, organization attention to details and
+          managing.
         </p>
       </div>
     </div>
