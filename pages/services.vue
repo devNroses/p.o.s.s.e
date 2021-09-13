@@ -49,7 +49,16 @@
             {{ service.address ? service.address : null }}
           </div>
           <div class="service-website">
-            {{ service.website ? service.website : null }}
+            <template v-if="service.website">
+              <a
+                :href="'//' + service.website"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Visit Website</a
+              >
+            </template>
+
+            <template v-else></template>
           </div>
           <div class="service-phone">
             <a
@@ -193,6 +202,7 @@ Solana Beach, CA 92014`,
     padding: 15px;
     margin: 10px 0px;
     padding-bottom: 20px;
+    text-align: center;
 
     h3 {
       color: #383f34;
@@ -220,7 +230,8 @@ Solana Beach, CA 92014`,
   }
 
   &-phone,
-  &-email {
+  &-email,
+  &-website {
     margin: 15px auto;
     width: 100%;
     display: flex;
