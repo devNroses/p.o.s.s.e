@@ -6,7 +6,8 @@
           <h3>How Can We Help?</h3>
           <p>
             If you have any questions or would just like to inquire more about
-            our program. Please contact us by phone or email.
+            our program. Please contact us by phone or email to set up a zoom
+            conference call.
           </p>
           <div class="footer-contact-phone">
             <a href="tel:6193350536">Give Us a Call</a>
