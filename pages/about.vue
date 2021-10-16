@@ -5,12 +5,10 @@
       <div class="about-intro-container">
         <div class="about-intro-content">
           <div>
-            <h1>Parents of Students in Special Education</h1>
-            <p>
-              P.O.S.S.E. is an independent, nonprofit, §501(c)(3) tax-exempt
-              organization of parents, educational professionals, doctors,
-              attorneys and, special educational advocates.
-            </p>
+            <h1>
+              Parents of Students in Special Education (P.O.S.S.E. INC.) is a
+              501(c) (3) tax exmpt organization.
+            </h1>
           </div>
           <div class="about-icon">
             <img src="~/assets/imgs/aboutIcon.svg" alt="about icon" />
@@ -19,50 +17,43 @@
       </div>
 
       <div class="about-history-wrapper">
-        <div>
-          <h3>Start Journey</h3>
-          <p>
-            Parents of Students in Special Education (P.O.S.S.E.., Inc.) is an
-            independent, nonprofit, §501(c)(3) tax-exempt organization of
-            parents, educational professionals, doctors, attorneys and, special
-            educational advocates. P.O.S.S.E.. began in 1998, when Marlena’s
-            son, Michael, was diagnosed with a severe reading disability known
-            as Dyseidetic, Dysphonetic Dyslexia. This is a learning disability
-            that affects children both visually and auditorily.<br />
-            Michael was in the second grade and was fortunate enough to have a
-            teacher who noticed that he had special academic needs. The teacher
-            admitted to not knowing the appropriate services to help him, but
-            knew that it was imperative that he required academic help.
-          </p>
-        </div>
-        <div>
-          <h3>Signs of Struggle</h3>
-          <p>
-            Discouraged by lack of guidance from the school district and her
-            son’s feelings of failure, she was left, through trial and error, to
-            close the education gap and make certain that the appropriate
-            learning programs and remediation for her son’s needs were
-            implemented. He is preparing to enter Berklee School of Music in
-            Boston.<br /><br />
-            She witnessed first-hand the agony, struggles and sleepless nights
-            and days of “living” at his school to ensure that his educational
-            needs were met. For more than a decade the family had struggled with
-            academic challenges that seemed almost insurmountable at times.
-          </p>
-        </div>
-        <div>
-          <h3>Beinging of P.O.S.S.E.</h3>
-          <p>
-            The maze they traveled for academic success resulted in a strong
-            desire to make the road easier for other families in similar
-            situations. Michael’s dream was for his mother to help other
-            children not have to experience the frustration, struggles that he
-            had to endure through his educational journey but to be able to
-            enjoy their younger years at school and have that everlasting memory
-            of school to pass onto their children. Michael wanted me to put this
-            in Motion -- Thus, P.O.S.S.E.. was formed.
-          </p>
-        </div>
+        <p>
+          Parents of Students in Special Education (P.O.S.S.E., Inc.) is an
+          independent, nonprofit, §501(c)(3) tax-exempt organization of parents,
+          educational professionals, doctors, attorneys and, special educational
+          advocates.
+        </p>
+        <p>
+          P.O.S.S.E. began in 1998, when Marlena’s son, Michael, was diagnosed
+          with a severe reading disability known as Dyseidetic, Dysphonetic
+          Dyslexia. This is a learning disability that affects children both
+          visually and auditorily.
+        </p>
+        <p>
+          Michael was in the second grade and was fortunate enough to have a
+          teacher who noticed that he had special academic needs. The teacher
+          admitted to not knowing the appropriate services to help him, but knew
+          that it was imperative that he required academic help. Discouraged by
+          lack of guidance from the school district and her son’s feelings of
+          failure, she was left, through trial and error, to close the education
+          gap and make certain that the appropriate learning programs and
+          remediation for her son’s needs were implemented.
+        </p>
+        <p>
+          As a parent, she witnessed first-hand the agony, struggles and
+          sleepless nights and days of “living” at his school to ensure that his
+          educational needs were met. For more than a decade the family had
+          struggled with academic challenges that seemed almost insurmountable
+          at times. The maze they traveled for academic success resulted in a
+          strong desire to make the road easier for other families in similar
+          situations.
+        </p>
+        <p>
+          P.O.S.S.E was birth from Michael's dream that no child should
+          experience what he did. Every child deserves to enjoy their younger
+          years at school and have the everlasting memories of success. Out of
+          this P.O.S.S.E. was formed.
+        </p>
       </div>
 
       <div class="about-characterize">
@@ -71,27 +62,30 @@
           A Learning Disability cannot be cured or fixed; it is a lifelong
           challenge. However, with the appropriate support, intervention and
           remediation children with learning disabilities can achieve success in
-          school. “Learning Disabilities” is an “umbrella” term describing a
+          school. "Learning Disabilities" is an "umbrella" term describing a
           number of other, more specific learning disabilities, such as dyslexia
-          and dysgraphia. This is why learning disabilities are referred to as
-          “hidden disabilities”: the child looks perfectly “normal” and seems to
-          be a very bright and intelligent child, yet may be unable to
-          demonstrate the skill level expected from a child of a similar age.
+          and dysgraphia.
         </p>
         <p>
-          Some types of Learning Disabilities: Dyscalculia affects a child’s
-          ability to understand numbers in math; Dysgraphia affects a child’s
-          handwriting ability and fine more skills; Dyslexia affects reading and
-          related language-based processing skills; Nonverbal Learning
-          Disabilities a child has trouble interpreting nonverbal cues like
-          facial expressions or body language and may have poor coordination;
-          Oral/Written Language Disorder and Specific Reading Comprehension
-          Deficit affects a child’s understanding what they read or of spoken
-          language; ADHD is hard for a child to stay focused and paying
-          attention, controlling behavior and hyperactivity; Dyspraxia causes
-          problems with movement and coordination language and speech; Executive
-          Functioning affects planning, organization attention to details and
-          managing.
+          This is why learning disabilities are referred to as "hidden
+          disabilities": the child looks perfectly "normal" and seems to be a
+          very bright and intelligent child, yet may be unable to demonstrate
+          the skill level expected from a child of a similar age. Some types of
+          Learning Disabilities Dyscalculia affects a child's ability to
+          understand numbers in math; Dysgraphia affects a child's handwriting
+          ability and find more skills; Dyslexia affects reading and related
+          language-based processing skills; Nonverbal Learning Disabilities a
+          child has trouble interpreting nonverbal cues like facial expressions
+          or body language and may have poor coordination; Oral/Written Language
+          Disorder and Specific reading Comprehension Deficit affects a child's
+          understanding what they read or of spoken language.
+        </p>
+
+        <p>
+          ADHD is hard for a child to stay focused and paying attention,
+          controlling behavior and hyperactivity; Dyspraxia causes problems with
+          movement and coordination language and speech; Executive Functioning
+          affects planning, organization attention to details and managing.
         </p>
       </div>
     </div>
@@ -105,6 +99,9 @@
     background-color: white;
     min-height: 100%;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   &-intro {
@@ -116,12 +113,13 @@
       width: 80%;
       margin: 0 auto;
       max-width: 1200px;
+      text-align: left !important;
     }
 
     &-content {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-evenly;
+      justify-content: center;
       width: 100%;
 
       div {
@@ -157,12 +155,11 @@
 
   &-history {
     &-wrapper {
-      width: 100%;
+      width: 65%;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
       flex-wrap: wrap;
       padding: 15px;
-      margin: 0 -20px;
 
       div {
         width: 380px;
@@ -201,9 +198,9 @@
     align-items: center;
 
     p {
-      max-width: 700px;
+      max-width: 1050px;
       line-height: 1.25;
-      text-align: center;
+      text-align: left;
     }
   }
 }

@@ -23,20 +23,20 @@
         <h1>Welcome Parents</h1>
         <p>
           Welcome to Parents of Students in Special Education, also known as
-          P.O.S.S.E.. We are here to assist you with your son or daughter’s
+          P.O.S.S.E. We are here to assist you with your son or daughter’s
           educational needs and to empower you with the knowledge of how the
           educational maze is structured to ensure your child has a successful
           educational career.
         </p>
         <p>
           Our vision is to reduce the drop out rate for children with learning
-          disabilities that attend our public schools. P.O.S.S.E.. is focused on
+          disabilities that attend our public schools. P.O.S.S.E. is focused on
           progressively moving the child forward consistent with their
-          educational grade level. The Mission of P.O.S.S.E.. is to prevent a
+          educational grade level. The Mission of P.O.S.S.E. is to prevent a
           retention rate that creates a negative experience for the child.
         </p>
         <p>
-          P.O.S.S.E..’S Mission is to create educational opportunities for
+          P.O.S.S.E.’S Mission is to create educational opportunities for
           children grades 3-12 with learning disabilities by advocating for
           effective research-based learning programs that will promote the
           success and dignity of our children. When children with disabilities
@@ -45,7 +45,7 @@
           opportunities.
         </p>
         <p>
-          P.O.S.S.E.. is premised on the belief that the key to effective
+          P.O.S.S.E. is premised on the belief that the key to effective
           educational programs for children with learning challenges is
           collaboration - as - equals by parents and educators. We look forward
           to working with you.
