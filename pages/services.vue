@@ -4,74 +4,12 @@
     <div class="services-wrapper">
       <div class="services-intro">
         <h3 class="services-title">
-          SERVICES WE PROVIDE
+          P.O.S.S.E. Services
         </h3>
-        <p>
-          <b>PARENTS OF STUDENTS IN SPECIAL EDUCATION (P.O.S.S.E., Inc.)</b>
-          provides individual advocacy and representation to children with
-          learning disabilities. <b>P.O.S.S.E.</b> provides advocacy assistance
-          to parents and families of children who may be suspected of having a
-          learning disability and are in need of special education services or a
-          504 Accommodation Plan. P.O.S.S.E. also offers independent consulting
-          with legal professionals, doctors and agencies, as needed for the
-          child’s individual needs and provides other services to parents and
-          families of children with special needs. Some of the services offered
-          by P.O.S.S.E. are:
-        </p>
       </div>
       <div class="service-list">
         <div v-for="i in list" :key="i.index">
           {{ i.service }}
-        </div>
-      </div>
-      <div class="services-intro">
-        <h3 class="services-title">
-          SELECT EDUCATIONAL <br />SERVICES ORGANIZATIONS
-        </h3>
-        <p>
-          Following is a list of organizations that collaborate with Parents of
-          Students in Special Education. For more information about the
-          educational services they provide, please contact them directly.
-        </p>
-      </div>
-      <div class="services-list">
-        <div
-          class="services-profile"
-          v-for="service in serviceList"
-          :key="service.index"
-        >
-          <h3>{{ service.name ? service.name : null }}</h3>
-
-          <div class="service-position">
-            {{ service.jobType ? service.jobType : null }}
-          </div>
-          <div class="service-address">
-            {{ service.address ? service.address : null }}
-          </div>
-          <div class="service-website">
-            <template v-if="service.website">
-              <a
-                :href="'//' + service.website"
-                target="_blank"
-                rel="noreferrer noopener"
-                >Visit Website</a
-              >
-            </template>
-
-            <template v-else></template>
-          </div>
-          <div class="service-phone">
-            <a
-              role="button"
-              :href="service.phone ? `tel:${service.phone}` : null"
-              >Call</a
-            >
-          </div>
-          <div class="service-email">
-            <a :href="service.contact ? `mailto:${service.contact}` : null"
-              >email</a
-            >
-          </div>
         </div>
       </div>
     </div>
@@ -85,10 +23,6 @@ import Vue from "vue";
 export default Vue.extend({
   data() {
     const list: any[] = [
-      {
-        service:
-          "Individual Child Timeline Preparation of Entire School Records/History for Parent and Advocate in Preparation of IEP Meetings"
-      },
       {
         service:
           "Provide Parent Education together with Parent Working Notebook"
@@ -124,39 +58,8 @@ export default Vue.extend({
         service: "Provide Relevant Resources and Referrals"
       }
     ];
-    const serviceList: any[] = [
-      {
-        name: "Dr. Lynne Thrope, Ph.D.",
-        jobType: "Reading Therapist",
-        roomLocation: "The Reading Room",
-        address: `8383 Center Drive, Suite B, La Mesa, CA 91942`,
-        website: "www.thereadingroom.net",
-        phone: "6194643647",
-        contact: null
-      },
 
-      {
-        name: "Lindamood-Bell Academy",
-        jobType: null,
-        roomLocation: null,
-        address: `445 Marine View Avenue Unit 290
-Solana Beach, CA 92014`,
-        website: null,
-        phone: "858-259-3206",
-        contact: null
-      },
-      {
-        name: "Member of Voices of Healthy Kids",
-        jobType: null,
-        roomLocation: null,
-        address: null,
-        website: "www.voicesforhealthykids.org",
-        phone: null,
-        contact: null
-      }
-    ];
     return {
-      serviceList,
       list
     };
   },
