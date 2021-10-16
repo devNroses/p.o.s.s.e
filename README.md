@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# p.o.s.s.e
+# P.O.S.S.E..
 =======
-# p.o.s.s.e
+# P.O.S.S.E..
 
 ## Build Setup
 

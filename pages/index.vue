@@ -23,38 +23,40 @@
         <h1>Welcome Parents</h1>
         <p>
           Welcome to Parents of Students in Special Education, also known as
-          P.O.S.S.E. We are here to assist you with your son or daughter’s
+          P.O.S.S.E.. We are here to assist you with your son or daughter’s
           educational needs and to empower you with the knowledge of how the
-          educational maze is structured so your child can be successful in
-          their journey onto college.
+          educational maze is structured to ensure your child has a successful
+          educational career.
         </p>
         <p>
-          Our vision is to reduce the drop out and retention rate for children
-          with learning disabilities that attend our public schools. With this
-          goal in mind, our Mission is to create educational opportunities for
+          Our vision is to reduce the drop out rate for children with learning
+          disabilities that attend our public schools. P.O.S.S.E.. is focused on
+          progressively moving the child forward consistent with their
+          educational grade level. The Mission of P.O.S.S.E.. is to prevent a
+          retention rate that creates a negative experience for the child.
+        </p>
+        <p>
+          P.O.S.S.E..’S Mission is to create educational opportunities for
           children grades 3-12 with learning disabilities by advocating for
           effective research-based learning programs that will promote the
-          success and dignity of our children. P.O.S.S.E. is also here to assist
-          with the development of these children into proficient and independent
-          learners as they transition from high school to college. The bottom
-          line is School Districts must provide special education and related
-          services to eligible students with disabilities in accordance with
-          their I.E.P. [Individualized Educational Plan] developed to meet their
-          “Individual Needs” and implementing the I.E.P. developed under IDEA.
+          success and dignity of our children. When children with disabilities
+          can realize their right to education, it will have a lifelong and
+          positive impact on their learning, achievement and employment
+          opportunities.
         </p>
         <p>
-          P.O.S.S.E. is premised on the belief that the key to effective
-          educational programs for children with learning disabilities is
-          collaboration - as - equals by parents and educators.
-        </p>
-        <p>
-          We look forward to working with you.
-        </p>
-        <p>
-          Sincerely,
-        </p>
+          P.O.S.S.E.. is premised on the belief that the key to effective
+          educational programs for children with learning challenges is
+          collaboration - as - equals by parents and educators. We look forward
+          to working with you.
+          <br /><br /><br />Sincerely,
 
-        <span>Marlena Vaughn, Executive Director</span>
+          <br /><br /><br /><span
+            >Marlena Vaughn, <br />CEO/Executive Director</span
+          >
+        </p>
+        <p></p>
+        <p></p>
       </div>
     </div>
     <Footer />
@@ -136,7 +138,7 @@ export default Vue.extend({
     padding: 25px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     align-items: center;
     color: #111;
@@ -152,16 +154,11 @@ export default Vue.extend({
       margin-bottom: 5px;
       font-size: 16px;
       max-width: 800px;
+      text-align: left;
     }
 
     img {
       margin-top: 10px;
-    }
-
-    span {
-      &:last-child {
-        font-size: 12px;
-      }
     }
   }
 }

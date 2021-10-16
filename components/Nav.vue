@@ -1,7 +1,7 @@
 <template>
   <nav class="nav-container">
     <div class="nav-logo">
-      <span>P.O.S.S.E</span>
+      <span>P.O.S.S.E..</span>
       <span>Parents of Students in Special Education</span>
     </div>
 

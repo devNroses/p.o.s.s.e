@@ -15,7 +15,6 @@
         <ol>
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/services">Services</NuxtLink></li>
-          <li><NuxtLink to="/tutoring">Tutoring</NuxtLink></li>
           <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
         </ol>
       </div>

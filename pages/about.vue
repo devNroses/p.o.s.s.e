@@ -7,7 +7,7 @@
           <div>
             <h1>Parents of Students in Special Education</h1>
             <p>
-              P.O.S.S.E is an independent, nonprofit, §501(c)(3) tax-exempt
+              P.O.S.S.E. is an independent, nonprofit, §501(c)(3) tax-exempt
               organization of parents, educational professionals, doctors,
               attorneys and, special educational advocates.
             </p>
@@ -22,13 +22,13 @@
         <div>
           <h3>Start Journey</h3>
           <p>
-            Parents of Students in Special Education (P.O.S.S.E., Inc.) is an
+            Parents of Students in Special Education (P.O.S.S.E.., Inc.) is an
             independent, nonprofit, §501(c)(3) tax-exempt organization of
             parents, educational professionals, doctors, attorneys and, special
-            educational advocates. P.O.S.S.E. began in 1998, when Marlena’s son,
-            Michael, was diagnosed with a severe reading disability known as
-            Dyseidetic, Dysphonetic Dyslexia. This is a learning disability that
-            affects children both visually and auditorily.<br />
+            educational advocates. P.O.S.S.E.. began in 1998, when Marlena’s
+            son, Michael, was diagnosed with a severe reading disability known
+            as Dyseidetic, Dysphonetic Dyslexia. This is a learning disability
+            that affects children both visually and auditorily.<br />
             Michael was in the second grade and was fortunate enough to have a
             teacher who noticed that he had special academic needs. The teacher
             admitted to not knowing the appropriate services to help him, but
@@ -51,7 +51,7 @@
           </p>
         </div>
         <div>
-          <h3>Beinging of P.O.S.S.E</h3>
+          <h3>Beinging of P.O.S.S.E.</h3>
           <p>
             The maze they traveled for academic success resulted in a strong
             desire to make the road easier for other families in similar
@@ -60,7 +60,7 @@
             had to endure through his educational journey but to be able to
             enjoy their younger years at school and have that everlasting memory
             of school to pass onto their children. Michael wanted me to put this
-            in Motion -- Thus, P.O.S.S.E. was formed.
+            in Motion -- Thus, P.O.S.S.E.. was formed.
           </p>
         </div>
       </div>

@@ -7,16 +7,16 @@
           SERVICES WE PROVIDE
         </h3>
         <p>
-          <b>PARENTS OF STUDENTS IN SPECIAL EDUCATION (P.O.S.S.E, Inc.)</b>
+          <b>PARENTS OF STUDENTS IN SPECIAL EDUCATION (P.O.S.S.E., Inc.)</b>
           provides individual advocacy and representation to children with
-          learning disabilities. <b>P.O.S.S.E.</b> provides advocacy assistance
+          learning disabilities. <b>P.O.S.S.E..</b> provides advocacy assistance
           to parents and families of children who may be suspected of having a
           learning disability and are in need of special education services or a
-          504 Accommodation Plan. P.O.S.S.E. also offers independent consulting
+          504 Accommodation Plan. P.O.S.S.E.. also offers independent consulting
           with legal professionals, doctors and agencies, as needed for the
           child’s individual needs and provides other services to parents and
           families of children with special needs. Some of the services offered
-          by P.O.S.S.E are:
+          by P.O.S.S.E. are:
         </p>
       </div>
       <div class="service-list">
