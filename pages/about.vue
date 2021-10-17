@@ -6,8 +6,10 @@
         <div class="about-intro-content">
           <div>
             <h1>
-              Parents of Students in Special Education (P.O.S.S.E. INC.) is a
-              501(c) (3) tax exmpt organization.
+              Parents of Students in Special Education (P.O.S.S.E., Inc.) is an
+              independent, nonprofit, 501(c)(3) tax-exempt organization of
+              parents, educational professionals, doctors, attorneys and,
+              special educational advocates.
             </h1>
           </div>
           <div class="about-icon">
@@ -17,12 +19,7 @@
       </div>
 
       <div class="about-history-wrapper">
-        <p>
-          Parents of Students in Special Education (P.O.S.S.E., Inc.) is an
-          independent, nonprofit, §501(c)(3) tax-exempt organization of parents,
-          educational professionals, doctors, attorneys and, special educational
-          advocates.
-        </p>
+        <h2>History</h2>
         <p>
           P.O.S.S.E. began in 1998, when Marlena’s son, Michael, was diagnosed
           with a severe reading disability known as Dyseidetic, Dysphonetic
