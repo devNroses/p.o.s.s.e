@@ -106,7 +106,7 @@ $footerColor: #e4f0d8;
     &-copyright {
       p {
         font-size: 14px;
-        text-align: center;
+        text-align: left;
         line-height: 1.5;
         margin: 10px auto;
         width: 75%;
