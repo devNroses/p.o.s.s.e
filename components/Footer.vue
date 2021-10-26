@@ -5,9 +5,8 @@
         <div class="footer-contact-info">
           <h3>How Can We Help?</h3>
           <p>
-            If you have any questions or would just like to inquire more about
-            our program. Please contact us by phone or email to set up a zoom
-            conference call.
+            If you have questions or want to inquire about our Program, please
+            contact us by email or phone to set up a Zoom Conference call.
           </p>
           <div class="footer-contact-phone">
             <a href="tel:6193350536">Give Us a Call</a>
@@ -42,7 +41,6 @@ $footerColor: #e4f0d8;
 .footer {
   &-wrapper {
     display: flex;
-    justify-content: space-between;
     background-color: $footerBackground;
     color: #e4f0d8;
     bottom: 0;
@@ -52,8 +50,7 @@ $footerColor: #e4f0d8;
 
   &-contact {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
     width: 100%;
@@ -62,22 +59,21 @@ $footerColor: #e4f0d8;
       padding: 0 50px;
       width: 50%;
       display: flex;
-      justify-content: space-between;
       flex-wrap: wrap;
-      padding: 15px;
+      padding: 15px 50px;
 
       h3 {
         font-size: 36px;
         font-weight: bolder;
-        margin: 8px auto;
-        text-align: center;
+        margin: 10px 8px 8px;
+        text-align: left;
       }
       p {
         margin: 0 auto;
         font-size: 16px;
         font-style: italic;
         margin-bottom: 15px;
-        text-align: center;
+        text-align: left;
       }
     }
 
@@ -89,9 +85,7 @@ $footerColor: #e4f0d8;
       height: 100px;
       color: #849c7a !important;
       display: flex;
-      justify-content: center;
       align-items: center;
-      margin: 0 auto;
 
       a {
         background-color: #383f34;
@@ -104,12 +98,17 @@ $footerColor: #e4f0d8;
     }
 
     &-copyright {
+      width: 50%;
       p {
         font-size: 14px;
         text-align: left;
         line-height: 1.5;
         margin: 10px auto;
-        width: 75%;
+        width: 80%;
+      }
+
+      @media only screen and (max-width: 550px) {
+        width: 100%;
       }
     }
   }

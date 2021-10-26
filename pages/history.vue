@@ -2,29 +2,13 @@
   <div>
     <Nav />
     <div class="about-container">
-      <div class="about-intro-container">
-        <div class="about-intro-content">
-          <div>
-            <h1>
-              Parents of Students in Special Education (P.O.S.S.E., Inc.) is an
-              independent, nonprofit, 501(c)(3) tax-exempt organization of
-              parents, educational professionals, doctors, attorneys and,
-              special educational advocates.
-            </h1>
-          </div>
-          <div class="about-icon">
-            <img src="~/assets/imgs/aboutIcon.svg" alt="about icon" />
-          </div>
-        </div>
-      </div>
-
       <div class="about-history-wrapper">
         <h2>History</h2>
         <p>
-          P.O.S.S.E. began in 1998, when Marlena’s son, Michael, was diagnosed
-          with a severe reading disability known as Dyseidetic, Dysphonetic
-          Dyslexia. This is a learning disability that affects children both
-          visually and auditorily.
+          We are a 501 (c)(3) non-profit organization, P.O.S.S.E. began in 1998,
+          when Marlena’s son, Michael, was diagnosed with a severe reading
+          disability known as Dyseidetic, Dysphonetic Dyslexia. This is a
+          learning challenge that affects children both visually and auditorily.
         </p>
         <p>
           Michael was in the second grade and was fortunate enough to have a
@@ -32,9 +16,9 @@
           admitted to not knowing the appropriate services to help him, but knew
           that it was imperative that he required academic help. Discouraged by
           lack of guidance from the school district and her son’s feelings of
-          failure, she was left, through trial and error, to close the education
-          gap and make certain that the appropriate learning programs and
-          remediation for her son’s needs were implemented.
+          failure, she was left, through trial and error, to close the
+          educational gap and make certain that the appropriate learning
+          programs and remediation for her son’s needs were implemented.
         </p>
         <p>
           As a parent, she witnessed first-hand the agony, struggles and
@@ -54,35 +38,45 @@
       </div>
 
       <div class="about-characterize">
-        <h2>CHARACTERIZING LEARNING DISABILITES</h2>
+        <h2>CHARACTERIZING LEARNING CHALLENGES</h2>
         <p>
-          A Learning Disability cannot be cured or fixed; it is a lifelong
-          challenge. However, with the appropriate support, intervention and
-          remediation children with learning disabilities can achieve success in
-          school. "Learning Disabilities" is an "umbrella" term describing a
-          number of other, more specific learning disabilities, such as dyslexia
-          and dysgraphia.
+          A Learning Disability does not define our children. It is a term used
+          under I.D.E.A. [Individuals with Disabilities Education Act] With the
+          appropriate support, intervention and remediation children with
+          learning challenges can achieve success in school.
         </p>
         <p>
-          This is why learning disabilities are referred to as "hidden
-          disabilities": the child looks perfectly "normal" and seems to be a
-          very bright and intelligent child, yet may be unable to demonstrate
-          the skill level expected from a child of a similar age. Some types of
-          Learning Disabilities Dyscalculia affects a child's ability to
-          understand numbers in math; Dysgraphia affects a child's handwriting
-          ability and find more skills; Dyslexia affects reading and related
-          language-based processing skills; Nonverbal Learning Disabilities a
-          child has trouble interpreting nonverbal cues like facial expressions
-          or body language and may have poor coordination; Oral/Written Language
-          Disorder and Specific reading Comprehension Deficit affects a child's
-          understanding what they read or of spoken language.
+          One of the terms used for learning Disabilities are reffered to as
+          "Hidden Disabilities". The child looks perfectly "normal" and seems to
+          be a very bright and intelligent child, yet may be unable to
+          demonstrate the skill level expected from a child of a similar age.
         </p>
-
         <p>
-          ADHD is hard for a child to stay focused and paying attention,
-          controlling behavior and hyperactivity; Dyspraxia causes problems with
-          movement and coordination language and speech; Executive Functioning
-          affects planning, organization attention to details and managing.
+          Some types of Learning challenges Dyscalculia affects a child's
+          ability to understand numbers in math; Dysgraphia affects a child's
+          handwriting ability and find more skills; Dyslexia affects reading and
+          related language-based processing skills; Nonverbal Learning
+          Challenges a child has trouble interpreting nonverbal cues like facial
+          expressions or body language and may have poor coordination;
+          Oral/Written Language Disorder and Specific reading Comprehension
+          Deficit affects a child's understanding what they read or of spoken
+          language. Dyspraxia is a neurological (or brain-based) disorder that
+          impacts a child’s ability relating to gross motor skills and motor
+          planning, and coordination.
+        </p>
+        <p>
+          ADHD [Attention-Deficit Hyperactivity Disorder] is a treatable,
+          neurodevelopmental disorder. Some symptoms are: hard for a child to
+          stay focused and paying attention, controlling behavior and
+          hyperactivity.
+        </p>
+        <p>
+          Executive Functioning Disorder: This helps our children prioritize
+          their Tasks but impacts our children’s learning. Executive Function is
+          a set of mental skills that include working memory, flexible thinking,
+          and self-control. We use these skills everyday to learn, work, and
+          manage daily life. Trouble with Executive Function can make it hard to
+          focus, follow directions, and handle emotions, among other things.
         </p>
       </div>
     </div>
@@ -99,13 +93,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    h2 {
+      text-align: left !important;
+    }
   }
 
   &-intro {
     &-container {
       display: flex;
       justify-self: center;
-      align-items: center;
       align-self: center;
       width: 80%;
       margin: 0 auto;
@@ -154,7 +151,6 @@
     &-wrapper {
       width: 65%;
       display: flex;
-      justify-content: center;
       flex-wrap: wrap;
       padding: 15px;
 
@@ -192,7 +188,6 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    align-items: center;
 
     p {
       max-width: 1050px;

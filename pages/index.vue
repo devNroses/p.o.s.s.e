@@ -30,14 +30,16 @@
         </p>
         <p>
           Our vision is to reduce the drop out rate for children with learning
-          disabilities that attend our public schools. P.O.S.S.E. is focused on
+          challenges that attend our public schools. P.O.S.S.E. is focused on
           progressively moving the child forward consistent with their
           educational grade level. The Mission of P.O.S.S.E. is to prevent a
-          retention rate that creates a negative experience for the child.
+          retention rate that creates a negative experience for a child that can
+          have a impact on them for life. [U.S.Department of Education
+          Statistical Report].
         </p>
         <p>
           P.O.S.S.E.’S Mission is to create educational opportunities for
-          children grades 3-12 with learning disabilities by advocating for
+          children grades 3-12 with learning challenges by advocating for
           effective research-based learning programs that will promote the
           success and dignity of our children. When children with disabilities
           can realize their right to education, it will have a lifelong and
@@ -45,14 +47,22 @@
           opportunities.
         </p>
         <p>
+          P.O.S.S.E.’s hero is Helen Keller. She overcame the struggle of being
+          deaf and blind by never giving up, dedicated her life to help others,
+          and made changes in the world despite her disabilities.... Keller is
+          the power of perseverance to overcome great obstacles. One of the
+          Themes in her Book is
+          <b><u>“the Power of the Right Kind of Education.”</u></b>
+        </p>
+        <p>
           P.O.S.S.E. is premised on the belief that the key to effective
           educational programs for children with learning challenges is
           collaboration - as - equals by parents and educators. We look forward
           to working with you.
-          <br /><br /><br />Sincerely,
+          <br /><br /><br /><i>Sincerely,</i>
 
           <br /><br /><br /><span
-            >Marlena Vaughn, <br />CEO/Executive Director</span
+            >Marlena Vaughn, <br />CEO/Executive Program Director</span
           >
         </p>
         <p></p>
