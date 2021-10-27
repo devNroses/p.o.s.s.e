@@ -2,7 +2,7 @@
   <div>
     <Nav />
     <div class="faq-wrapper">
-      <h1>Frequently Asked Questions:</h1>
+      <h2 class="pageTitle">Frequently Asked Questions:</h2>
       <div class="faq-content">
         <div>
           <h3>What is a Learning Challenges?</h3>

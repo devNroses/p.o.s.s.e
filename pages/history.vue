@@ -3,7 +3,7 @@
     <Nav />
     <div class="about-container">
       <div class="about-history-wrapper">
-        <h2>History</h2>
+        <h2 class="pageTitle">History</h2>
         <p>
           We are a 501 (c)(3) non-profit organization, P.O.S.S.E. began in 1998,
           when Marlena’s son, Michael, was diagnosed with a severe reading
@@ -38,7 +38,7 @@
       </div>
 
       <div class="about-characterize">
-        <h2>CHARACTERIZING LEARNING CHALLENGES</h2>
+        <h2 class="pageTitle">CHARACTERIZING LEARNING CHALLENGES</h2>
         <p>
           A Learning Disability does not define our children. It is a term used
           under I.D.E.A. [Individuals with Disabilities Education Act] With the
@@ -95,7 +95,7 @@
     align-items: center;
 
     h2 {
-      text-align: left !important;
+      text-align: center !important;
     }
   }
 
@@ -153,6 +153,8 @@
       display: flex;
       flex-wrap: wrap;
       padding: 15px;
+      justify-content: center;
+      margin-top: -15px;
 
       div {
         width: 380px;

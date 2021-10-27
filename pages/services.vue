@@ -3,9 +3,9 @@
     <Nav />
     <div class="services-wrapper">
       <div class="services-intro">
-        <h3 class="services-title">
+        <h2 class="pageTitle">
           P.O.S.S.E. Services and Level Up
-        </h3>
+        </h2>
       </div>
       <div class="levelUp-wrapper">
         <div class="levelUp-price">
@@ -118,9 +118,9 @@
       </div>
 
       <div class="services-intro">
-        <h3 class="services-title">
+        <h2 class="pageTitle">
           Services
-        </h3>
+        </h2>
       </div>
       <div class="service-list">
         <div v-for="i in list" :key="i.index">

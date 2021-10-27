@@ -3,7 +3,7 @@
     <div class="footer-wrapper">
       <div class="footer-contact" id="contact_section">
         <div class="footer-contact-info">
-          <h3>How Can We Help?</h3>
+          <h2>How Can We Help?</h2>
           <p>
             If you have questions or want to inquire about our Program, please
             contact us by email or phone to set up a Zoom Conference call.
