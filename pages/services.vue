@@ -116,17 +116,6 @@
           Appropriate Public Education].
         </p>
       </div>
-
-      <div class="services-intro">
-        <h2 class="pageTitle">
-          Services
-        </h2>
-      </div>
-      <div class="service-list">
-        <div v-for="i in list" :key="i.index">
-          {{ i.service }}
-        </div>
-      </div>
     </div>
     <Footer />
   </div>
@@ -136,48 +125,7 @@
 import Vue from "vue";
 
 export default Vue.extend({
-  data() {
-    const list: any[] = [
-      {
-        service:
-          "Provide Parent Education together with Parent Working Notebook"
-      },
-      {
-        service: "Attendance at IEP Team & 504 Plan Meetings"
-      },
-      {
-        service: "Assistance with the Development of IEPs and 504 Plans"
-      },
-      {
-        service:
-          "Assistance with Letter Correspondence and Telephone Communication"
-      },
-      {
-        service:
-          "Assistance with Preparation of Evaluation Plans and or Assessment Plans"
-      },
-      {
-        service: "School Site Visits for Appropriate Placements"
-      },
-      {
-        service: "Classroom Observations"
-      },
-      {
-        service:
-          "Assistance with Resolving Disputes with School District, or other Agency Providing Services"
-      },
-      {
-        service: "IEP Team Meeting Preparation with Parents"
-      },
-      {
-        service: "Provide Relevant Resources and Referrals"
-      }
-    ];
-
-    return {
-      list
-    };
-  },
+  data() {},
   methods: {}
 });
 </script>
