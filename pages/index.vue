@@ -135,7 +135,7 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .landing {
   &-slider {
-    height: 500px;
+    height: 600px;
 
     .slider {
       height: 100% !important;
