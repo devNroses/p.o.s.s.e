@@ -5,7 +5,7 @@
       <div class="about-history-wrapper">
         <h2 class="pageTitle">History</h2>
         <p>
-          We are a 501 (c)(3) non-profit organization, P.O.S.S.E. began in 1998,
+          We are a 501 (c)(3) non-profit organization. P.O.S.S.E. began in 1998,
           when Marlena’s son, Michael, was diagnosed with a severe reading
           disability known as Dyseidetic, Dysphonetic Dyslexia. This is a
           learning challenge that affects children both visually and auditorily.
@@ -33,7 +33,7 @@
           P.O.S.S.E was birth from Michael's dream that no child should
           experience what he did. Every child deserves to enjoy their younger
           years at school and have the everlasting memories of success. Out of
-          this P.O.S.S.E. was formed.
+          this P.O.S.S.E. was created.
         </p>
       </div>
 
@@ -47,36 +47,44 @@
         </p>
         <p>
           One of the terms used for learning Disabilities are reffered to as
-          "Hidden Disabilities". The child looks perfectly "normal" and seems to
-          be a very bright and intelligent child, yet may be unable to
-          demonstrate the skill level expected from a child of a similar age.
+          "Hidden Disabilities". Invisible Disability, or Hidden Disability, is
+          an umbrella term that captures a whole spectrum of hidden disabilities
+          or challenges that are primarily neurological in nature. Invisible
+          disability, or hidden disability are defined as disabilities that are
+          not immediately apparent. Some children with visual or auditory
+          disabilities who do not wear glasses or hearing aids, may not be
+          obviously disabled. A child that appears intelligent; however, the
+          child is unable to demonstrate the skill level expected from a child
+          of a similar age, may have a hidden disability or invisible
+          disability.
         </p>
         <p>
-          Some types of Learning challenges Dyscalculia affects a child's
+          Various learning challenges include: Dyscalculia affects a child's
           ability to understand numbers in math; Dysgraphia affects a child's
-          handwriting ability and find more skills; Dyslexia affects reading and
-          related language-based processing skills; Nonverbal Learning
-          Challenges a child has trouble interpreting nonverbal cues like facial
-          expressions or body language and may have poor coordination;
-          Oral/Written Language Disorder and Specific reading Comprehension
-          Deficit affects a child's understanding what they read or of spoken
-          language. Dyspraxia is a neurological (or brain-based) disorder that
-          impacts a child’s ability relating to gross motor skills and motor
-          planning, and coordination.
+          handwriting ability and fine motor skills; Dyslexia affects reading
+          and related language-based processing skills; Nonverbal learning
+          challenges are when a child has trouble interpreting nonverbal cues
+          such as a facial expression or body language and may have poor
+          coordination; Oral/Written Language Disorder and Specific Reading
+          Comprehension Deficit affects a child's understanding of what they are
+          reading or of spoken language.. Dyspraxia is a neurological (or
+          brain-based) disorder that impacts a child’s ability relating to gross
+          motor skills and motor planning and coordination.
         </p>
         <p>
           ADHD [Attention-Deficit Hyperactivity Disorder] is a treatable,
-          neurodevelopmental disorder. Some symptoms are: hard for a child to
-          stay focused and paying attention, controlling behavior and
-          hyperactivity.
+          neurodevelopmental disorder. Symptoms include: difficulty for a child
+          to stay focused or pay attention causing the child to have difficulty
+          controlling their behavior and exhibiting hyperactivity.
         </p>
         <p>
-          Executive Functioning Disorder: This helps our children prioritize
-          their Tasks but impacts our children’s learning. Executive Function is
-          a set of mental skills that include working memory, flexible thinking,
+          Executive Functioning Disorder is critical because it helps our
+          children prioritize their tasks. Executive Functioning Disorder is a
+          set of mental skills that include working memory, flexible thinking,
           and self-control. We use these skills everyday to learn, work, and
-          manage daily life. Trouble with Executive Function can make it hard to
-          focus, follow directions, and handle emotions, among other things.
+          manage daily life. Executive Functioning Disorder causes the child to
+          have difficulty focusing, following directions, managing emotions and
+          completing tasks.
         </p>
       </div>
     </div>

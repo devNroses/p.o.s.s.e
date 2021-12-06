@@ -4,26 +4,31 @@
     <div class="services-wrapper">
       <div class="services-intro">
         <h2 class="pageTitle">
-          P.O.S.S.E. Services and Level Up
+          P.O.S.S.E. Services
         </h2>
       </div>
       <div class="levelUp-wrapper">
         <div class="levelUp-price">
-          <h3>Level I:Consultation Phase</h3>
+          <h3>Level I: Consultation Phase</h3>
           <h3>$75.00</h3>
         </div>
 
         <p>
           Conference with Parent(s) to discuss the overall performance of the
-          child and child’s educational background through their grade level so
-          P.O.S.S.E. can understand the child and understand their Learning
-          Challenges. Discuss how the child qualified i.e.”Eligibility” for
-          services. Discuss Parent’s role at their child’s IEP meeting; Discuss
-          what Parents should expect in an IEP Meeting; Who should attend their
+          child's educational background through their grade level so P.O.S.S.E.
+          can understand the child and understand their Learning Challenges.
+          Discuss how the child qualified i.e.”Eligibility” for services.
+          Discuss Parent’s role at their child’s IEP meeting; Discuss what
+          Parents should expect in an IEP Meeting; Who should attend their
           child’s IEP meeting with relation to their child’s teachers.
-          Anticipated/Expected Outcome: Parents become familiar and can begin to
-          understand the in depth process of their child’s educational needs and
-          begin to understand the IEP Process as it pertains to their child.
+        </p>
+        <h4>
+          Anticipated/Expected Outcome:
+        </h4>
+        <p>
+          Parents become familiar and can begin to understand the in depth
+          process of their child’s educational needs and begin to understand the
+          IEP Process as it pertains to their child.
         </p>
       </div>
 
@@ -43,10 +48,11 @@
           whether child is performing at grade level or below grade level.
           Review Present levels of Performance (PLOP). Determine any unique
           needs that the child may have that are not identified by the school or
-          on the IEP; Determine what services the school has employed to address
-          each need; what will the child be able to accomplish as a result of
-          the services. Review all IEP Goals and Objectives on the current IEP
-          and fomer IEPs; Advice of additional assessments for the child.
+          on the IEP; Determine what services the school has implemented to
+          address each need; what will the child be able to accomplish as a
+          result of the services. Review all IEP Goals and Objectives on the
+          current IEP and fomer IEPs; Advice of additional assessments for the
+          child.
         </p>
 
         <h4>
@@ -61,7 +67,7 @@
 
       <div class="levelUp-wrapper">
         <div class="levelUp-price">
-          <h3>Level III - P.O.S.S.E. Parent Notebook</h3>
+          <h3>Level III: P.O.S.S.E. Parent Notebook</h3>
           <h3>$1,075.00</h3>
         </div>
 
@@ -90,7 +96,7 @@
 
       <div class="levelUp-wrapper">
         <div class="levelUp-price">
-          <h3>Level IV</h3>
+          <h3>Level IV: Timeline Educational Records</h3>
           <h3>$2,500.00</h3>
         </div>
 
@@ -103,7 +109,10 @@
           Meetings for Parents to add as a Addendum to meeting notes; Review
           draft IEP with Parents and continue until final IEP is in place for
           the child. Assistance with Transitional services for child if
-          appropriate; Assistance with Extended School Year.
+          appropriate; Assistance with Extended School Year. Assistance with
+          preparing Transition Assessments for future preparation for getting a
+          job or college. Assistance with Transition Assessments is a step to
+          helping your child set goals in the future.
         </p>
 
         <h4>
@@ -240,9 +249,10 @@
     flex-direction: column;
     max-width: 1200px;
     justify-self: center;
-    margin: 0 auto 40px;
+    margin: 0 auto 20px;
 
     h4 {
+      margin-top: -5px;
       margin-bottom: -10px;
     }
   }

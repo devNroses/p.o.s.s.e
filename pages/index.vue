@@ -20,7 +20,7 @@
         </Slider>
       </div>
       <div class="landing-message">
-        <h1>Welcome Parents</h1>
+        <h1 class="pageTitle">Welcome Parents</h1>
         <p>
           Welcome to Parents of Students in Special Education, also known as
           P.O.S.S.E. We are here to assist you with your son or daughter’s
@@ -32,19 +32,19 @@
           Our vision is to reduce the drop out rate for children with learning
           challenges that attend our public schools. P.O.S.S.E. is focused on
           progressively moving the child forward consistent with their
-          educational grade level. The Mission of P.O.S.S.E. is to prevent a
+          educational grade level. The Mission of P.O.S.S.E. is to prevent the
           retention rate that creates a negative experience for a child that can
-          have a impact on them for life. [U.S.Department of Education
-          Statistical Report].
+          impact them for a lifetime. [U.S.Department of Education Statistical
+          Report].
         </p>
         <p>
-          P.O.S.S.E.’S Mission is to create educational opportunities for
-          children grades 3-12 with learning challenges by advocating for
+          P.O.S.S.E.’s Mission is to create educational opportunities for
+          children grades 1-12 with learning challenges by advocating for
           effective research-based learning programs that will promote the
-          success and dignity of our children. When children with disabilities
-          can realize their right to education, it will have a lifelong and
-          positive impact on their learning, achievement and employment
-          opportunities.
+          success and dignity of our children. When children with learning
+          challenges can realize their right to education, this will have a
+          lifelong and positive impact on their learning, achievement and
+          employment opportunities.
         </p>
         <p>
           P.O.S.S.E.’s hero is Helen Keller. She overcame the struggle of being
@@ -52,7 +52,7 @@
           and made changes in the world despite her disabilities.... Keller is
           the power of perseverance to overcome great obstacles. One of the
           Themes in her Book is
-          <b><u>“the Power of the Right Kind of Education.”</u></b>
+          <b>“<u>The Power of the Right Kind of Education</u>”.</b>
         </p>
         <p>
           P.O.S.S.E. is premised on the belief that the key to effective
