@@ -109,6 +109,15 @@ export default Vue.extend({
           },
           {
             backgroundImage:
+              "url(" + require("@/assets/imgs/slide-img4.jpg") + ")",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            width: "100%",
+            height: "100%"
+          },
+          {
+            backgroundImage:
               "url(" + require("@/assets/imgs/slide-img2.jpg") + ")",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
@@ -135,11 +144,11 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .landing {
   &-slider {
-    height: 600px;
+    height: 650px;
 
     .slider {
       height: 100% !important;
-      max-height: 600px !important;
+      max-height: 650px !important;
       z-index: -1 !important;
     }
   }
