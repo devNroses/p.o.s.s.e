@@ -43,20 +43,19 @@
           A Learning Disability does not define our children. It is a term used
           under I.D.E.A. [Individuals with Disabilities Education Act] With the
           appropriate support, intervention and remediation children with
-          learning challenges can achieve success in school.
+          learning challenges will achieve success in school.
         </p>
         <p>
-          One of the terms used for learning Disabilities are reffered to as
-          "Hidden Disabilities". Invisible Disability, or Hidden Disability, is
-          an umbrella term that captures a whole spectrum of hidden disabilities
-          or challenges that are primarily neurological in nature. Invisible
-          disability, or hidden disability are defined as disabilities that are
-          not immediately apparent. Some children with visual or auditory
-          disabilities who do not wear glasses or hearing aids, may not be
-          obviously disabled. A child that appears intelligent; however, the
-          child is unable to demonstrate the skill level expected from a child
-          of a similar age, may have a hidden disability or invisible
-          disability.
+          Hidden Disabilities is a term referring to a child that appears
+          intelligent; however, the child is unable to demonstrate the skill
+          level expected from a child of a similar age. Invisible Disability, or
+          Hidden Disability, is an umbrella term that captures a whole spectrum
+          of hidden disabilities or challenges that are primarily neurological
+          in nature. Invisible disability, or hidden disability are defined as
+          disabilities that are not immediately apparent. A child that appears
+          intelligent; however, the child is unable to demonstrate the skill
+          level expected from a child of a similar age, may have a hidden
+          disability or invisible disability.
         </p>
         <p>
           Various learning challenges include: Dyscalculia affects a child's
@@ -69,7 +68,7 @@
           Comprehension Deficit affects a child's understanding of what they are
           reading or of spoken language.. Dyspraxia is a neurological (or
           brain-based) disorder that impacts a child’s ability relating to gross
-          motor skills and motor planning and coordination.
+          motor skills, motor planning and coordination.
         </p>
         <p>
           ADHD [Attention-Deficit Hyperactivity Disorder] is a treatable,

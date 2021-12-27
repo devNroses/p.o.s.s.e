@@ -5,20 +5,18 @@
       <h2 class="pageTitle">Frequently Asked Questions:</h2>
       <div class="faq-content">
         <div>
-          <h3>What is a Learning Challenges?</h3>
+          <h3>What is a Learning Challenge?</h3>
           <p>
-            A learning challenges results from a difference in the way a
-            person’s brain is “wired.” Children with learning challenges are as
-            smart or smarter than their peers. But they may have difficulty
-            reading, writing, spelling, reasoning, recalling and/organizing
-            information if left to figure things out by themselves or if taught
-            in conventional ways.
+            A learning challenge results from a difference in the way a child's
+            brain is "wired" [Brain &#38; Life Magazine re Neurology Today].
+            Children may have difficulty reading, writing, spelling, reasoning,
+            recalling and/organizing information if left to figure things out by
+            themselves or if taught in conventional ways.
           </p>
           <p>
-            A learning challenges can’t be cured or fixed, it is a lifelong
-            issue. With the right support and intervention; however, children
-            with learning challenges can succeed in school and go onto
-            successful, often distinguished careers later in life.
+            A learning challenge can be remediated with appropriate
+            intervention, strategies and different types of remedial education;
+            as: one-to-one tutoring; private tutoring, specialist tutoring, etc.
           </p>
         </div>
 
@@ -28,19 +26,23 @@
           </h3>
 
           <p>
-            However it is often difficult, based on observed behaviors, to
-            distinguish between slow learners and learning disabled persons.
-            Basically a student with Learning Challenges have deficits in one or
-            two areas while performing at or above the average in other areas.
-            The child’s potential or overall intelligence is greater than
-            his/her poor achievement would predict. This is called the
-            ability-achievement discrepancy. It is even possible for someone to
-            have characteristic of both conditions.
+            It is often difficult based on observed behaviors to distinguish
+            between slow learners and children with learning challenges. A child
+            with learning challenges may have deficits in one or two areas while
+            performing at or above the average standard in other areas. However
+            it is often difficult, based on observed behaviors, to distinguish
+            between slow learners and learning disabled persons. Basically a
+            student with Learning Challenges have deficits in one or two areas
+            while performing at or above the average in other areas. The child’s
+            potential or overall intelligence is greater than his/her poor
+            achievement would predict. This is called the ability-achievement
+            discrepancy. It is possible for a child to have characteristics of
+            both conditions.
           </p>
           <p>
-            Actual diagnosis of a learning challenges can only be done by a
-            trained professional – clinical psychologists, educational
-            psychologist, some physicians, etc.
+            Actual diagnosis of a learning challenge can be diagnosed by a
+            trained professional; clinical psychologists, educational
+            psychologist and some physicians who are trained in this field.
           </p>
           <p>
             The last reference raises serious question about whether an
@@ -71,6 +73,18 @@
             definition mean that a person’s skills in a particular area
             (reading, math visual/auditory processing, etc). are lower than
             would be expected by looking at the person’s overall IQ.
+          </p>
+
+          <p>
+            According to the National Library of Medicine: "IQ is irrelevant to
+            the definition of learning disabilities" In this article it was
+            argued that IQ scores measure factual knowledge, expressive language
+            abilities, and short-term memory, among other skills and that
+            because children with learning disabilities have deficits in these
+            areas, their scores may be spuriously low. It was also shown that
+            some children with low IQ scores can be good readers, indicating
+            that the low IQ scores does not necessarily result in poor reading.
+            [Pub Med.Gov.]
           </p>
         </div>
       </div>

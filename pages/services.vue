@@ -3,9 +3,7 @@
     <Nav />
     <div class="services-wrapper">
       <div class="services-intro">
-        <h2 class="pageTitle">
-          P.O.S.S.E. Services
-        </h2>
+        <h2 class="pageTitle">P.O.S.S.E. Services</h2>
       </div>
       <div class="levelUp-wrapper">
         <div class="levelUp-price">
@@ -15,16 +13,15 @@
 
         <p>
           Conference with Parent(s) to discuss the overall performance of the
-          child's educational background through their grade level so P.O.S.S.E.
-          can understand the child and understand their Learning Challenges.
-          Discuss how the child qualified i.e.”Eligibility” for services.
-          Discuss Parent’s role at their child’s IEP meeting; Discuss what
-          Parents should expect in an IEP Meeting; Who should attend their
+          child's educational background through their grade level. This will
+          enable P.O.S.S.E. to fully understand the child's learning challenges
+          and how this is affecting their productivity within the classroom
+          setting. Discuss how the child qualified i.e.”Eligibility” for
+          services. Discuss Parent’s role at their child’s IEP meeting; Discuss
+          what Parents should expect in an IEP Meeting; Who should attend their
           child’s IEP meeting with relation to their child’s teachers.
         </p>
-        <h4>
-          Anticipated/Expected Outcome:
-        </h4>
+        <h4>Anticipated/Expected Outcome:</h4>
         <p>
           Parents become familiar and can begin to understand the in depth
           process of their child’s educational needs and begin to understand the
@@ -43,7 +40,7 @@
           done a thorough evaluation in all areas of suspected disability for
           the child. Review records Parents have from the school. Prepare detail
           written correspondence to School Prinicipal/District to obtain ALL
-          records, test, assessments and protocols through grade level from all
+          records, tests, assessments and protocols through grade level from all
           schools of child’s attendance. Determine based on school records
           whether child is performing at grade level or below grade level.
           Review Present levels of Performance (PLOP). Determine any unique
@@ -55,9 +52,7 @@
           child.
         </p>
 
-        <h4>
-          Anticipated/Expected Outcome:
-        </h4>
+        <h4>Anticipated/Expected Outcome:</h4>
         <p>
           Parents will be able to make an informed decision as to where the
           child is performing grade level and if the child has made measurable
@@ -67,14 +62,14 @@
 
       <div class="levelUp-wrapper">
         <div class="levelUp-price">
-          <h3>Level III: P.O.S.S.E. Parent Notebook</h3>
+          <h3>Level III: P.O.S.S.E. Parent Notebook and Parent Training</h3>
           <h3>$1,075.00</h3>
         </div>
 
         <p>
           Parent receives notebook with all of child’s records in Chronological
           order with worksheet and progress sheets for upcoming IEP meetings,
-          beginning of P.O.S.S.E. Training until completion of IEP process;
+          begin parent training with P.O.S.S.E. until completion of IEP process;
           preparation of Parent Agenda for Meetings; Review and discuss all
           Evaluation assessments that were given to child; Review and make sure
           Parents have all reports three days before the IEP Meeting to discuss
@@ -83,10 +78,11 @@
           Recording of IEP Notices given.
         </p>
 
-        <h4>
-          Anticipated/Expected Outcome:
-        </h4>
+        <h4>Anticipated/Expected Outcome:</h4>
         <p>
+          Parents have completed the training program and will have the
+          knowledge and understanding to continue to plan for their child's
+          educational needs as the child progresses through each grade level.
           Parents are prepared to begin advocating for their child and
           understand what has to be provided by the school under IDEA and what
           their child is entitled to under the law on their child’s Independent
@@ -101,23 +97,29 @@
         </div>
 
         <p>
-          Services of all above and Extensive Detailed Timeline regarding
-          educational time records of child through current grade level;
-          Continued Training of Parent; classroom observations if applicable;
-          Visit of campus site regarding appropriate placement per the goals and
-          objectives of the IEP; Attendance at all IEP meetings. Notes from IEP
-          Meetings for Parents to add as a Addendum to meeting notes; Review
-          draft IEP with Parents and continue until final IEP is in place for
-          the child. Assistance with Transitional services for child if
-          appropriate; Assistance with Extended School Year. Assistance with
-          preparing Transition Assessments for future preparation for getting a
-          job or college. Assistance with Transition Assessments is a step to
-          helping your child set goals in the future.
+          Parents are not proficient in the IEP Process and can continue on
+          their own to be effective advocates for their child. Certificate of
+          Completion as having acquired the skill set level of an effective
+          advocator for their child. Parents have the opportunity to pay a
+          membership fee for services for P.O.S.S.E. to assist with future IEP
+          for their child until 12th grade and assistance with College
+          Preparatory Services with P.O.S.S.E.'s affiliate. Services of all
+          above and Extensive Detailed Timeline regarding educational time
+          records of child through current grade level; Continued Training of
+          Parent; classroom observations if applicable; Visit of campus site
+          regarding appropriate placement per the goals and objectives of the
+          IEP; Attendance at all IEP meetings. Notes from IEP Meetings for
+          Parents to add as a Addendum to meeting notes; Review draft IEP with
+          Parents and continue until final IEP is in place for the child.
+          Assistance with Transitional services for child if appropriate;
+          Assistance with Extended School Year. Assistance with preparing
+          Transition Assessments for future preparation for getting a job or
+          college, live independently and participate in the community.
+          Assistance with Transition Assessments is a step to helping your child
+          set goals in the future.
         </p>
 
-        <h4>
-          Anticipated/Expected Outcome:
-        </h4>
+        <h4>Anticipated/Expected Outcome:</h4>
         <p>
           Parents are now trained to be an effective advocate for their child
           until graduation and can determine if services provided by the school
