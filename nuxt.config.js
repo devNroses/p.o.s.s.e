@@ -22,7 +22,7 @@ export default {
     ], 
     script: [
       { 
-        src: `https://www.paypal.com/sdk/js?client-id=${process.env.PAYPALDEV}`, 
+        src: `https://www.paypal.com/sdk/js?client-id=${process.env.PAYPALDEV}&currency=USD`, 
         async: true
     },
 
