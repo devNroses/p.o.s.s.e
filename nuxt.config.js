@@ -19,6 +19,13 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ], 
+    script: [
+      { 
+        src: `https://www.paypal.com/sdk/js?client-id=${process.env.PAYPALDEV}`, 
+        async: true
+    },
+
     ]
   },
 
