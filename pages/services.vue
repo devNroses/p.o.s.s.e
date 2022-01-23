@@ -1,6 +1,7 @@
 <template>
   <div>
     <Nav />
+    <PaySummary />
     <div class="services-wrapper">
       <div class="services-intro">
         <h2 class="pageTitle">P.O.S.S.E. Services</h2>
@@ -128,6 +129,7 @@
         </p>
       </div>
     </div>
+
     <Footer />
   </div>
 </template>
