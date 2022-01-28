@@ -1,43 +1,59 @@
 <template>
   <div>
     <Nav />
-    <PaySummary />
+    <PaySummary :purchaseList="shoppingCart" />
     <div class="services-wrapper">
       <div class="services-intro">
         <h2 class="pageTitle">P.O.S.S.E. Services</h2>
       </div>
-      <div class="levelUp-wrapper">
+      <div class="levelUp-wrapper" v-for="(service, i) of services" :key="i">
         <div class="levelUp-price">
-          <h3>Level I: Consultation Phase</h3>
-          <h3>$75.00</h3>
+          <div class="price-header">
+            <h3>{{ service.name }}</h3>
+            <button>Add Service</button>
+          </div>
+          <h3>{{ service.price }}</h3>
         </div>
 
         <p>
-          Conference with Parent(s) to discuss the overall performance of the
+          {{ service.details }}
+        </p>
+        <h4>Anticipated/Expected Outcome:</h4>
+        <p>
+          {{ service.anticipatedDetails }}
+        </p>
+      </div>
+    </div>
+
+    <Footer />
+  </div>
+</template>
+
+<script lang="ts">
+import Vue from "vue";
+export default Vue.extend({
+  data() {
+    return {
+      services: [
+        {
+          name: "Level I: Consultation Phase",
+          price: "$75.00",
+          details: ` Conference with Parent(s) to discuss the overall performance of the
           child's educational background through their grade level. This will
           enable P.O.S.S.E. to fully understand the child's learning challenges
           and how this is affecting their productivity within the classroom
           setting. Discuss how the child qualified i.e.”Eligibility” for
           services. Discuss Parent’s role at their child’s IEP meeting; Discuss
           what Parents should expect in an IEP Meeting; Who should attend their
-          child’s IEP meeting with relation to their child’s teachers.
-        </p>
-        <h4>Anticipated/Expected Outcome:</h4>
-        <p>
-          Parents become familiar and can begin to understand the in depth
+          child’s IEP meeting with relation to their child’s teachers.`,
+          anticipatedDetails: `Parents become familiar and can begin to understand the in depth
           process of their child’s educational needs and begin to understand the
-          IEP Process as it pertains to their child.
-        </p>
-      </div>
-
-      <div class="levelUp-wrapper">
-        <div class="levelUp-price">
-          <h3>Level II: Critical Assessment Phase</h3>
-          <h3>$375.00</h3>
-        </div>
-
-        <p>
-          Initial Assessment of what tests have been given and if the school has
+          IEP Process as it pertains to their child.`,
+        },
+        {
+          name: "Level II: Critical Assessment Phase",
+          price: "$375.00",
+          details: `Initial Assessment of what tests have been given and if the school has
           done a thorough evaluation in all areas of suspected disability for
           the child. Review records Parents have from the school. Prepare detail
           written correspondence to School Prinicipal/District to obtain ALL
@@ -50,25 +66,15 @@
           address each need; what will the child be able to accomplish as a
           result of the services. Review all IEP Goals and Objectives on the
           current IEP and fomer IEPs; Advice of additional assessments for the
-          child.
-        </p>
-
-        <h4>Anticipated/Expected Outcome:</h4>
-        <p>
-          Parents will be able to make an informed decision as to where the
+          child.`,
+          anticipatedDetails: `Parents will be able to make an informed decision as to where the
           child is performing grade level and if the child has made measurable
-          educational gains as provided under IDEA.
-        </p>
-      </div>
-
-      <div class="levelUp-wrapper">
-        <div class="levelUp-price">
-          <h3>Level III: P.O.S.S.E. Parent Notebook and Parent Training</h3>
-          <h3>$1,075.00</h3>
-        </div>
-
-        <p>
-          Parent receives notebook with all of child’s records in Chronological
+          educational gains as provided under IDEA.`,
+        },
+        {
+          name: "Level III: P.O.S.S.E. Parent Notebook and Parent Training",
+          price: "$1,075.00",
+          details: `Parent receives notebook with all of child’s records in Chronological
           order with worksheet and progress sheets for upcoming IEP meetings,
           begin parent training with P.O.S.S.E. until completion of IEP process;
           preparation of Parent Agenda for Meetings; Review and discuss all
@@ -76,29 +82,19 @@
           Parents have all reports three days before the IEP Meeting to discuss
           at meeting; Pre-IEP meeting with Parent to address concerns;
           attendance at two IEP Meetings (Via Zoom) or in person if applicable;
-          Recording of IEP Notices given.
-        </p>
-
-        <h4>Anticipated/Expected Outcome:</h4>
-        <p>
-          Parents have completed the training program and will have the
+          Recording of IEP Notices given.`,
+          anticipatedDetails: `Parents have completed the training program and will have the
           knowledge and understanding to continue to plan for their child's
           educational needs as the child progresses through each grade level.
           Parents are prepared to begin advocating for their child and
           understand what has to be provided by the school under IDEA and what
           their child is entitled to under the law on their child’s Independent
-          Educational Plan.
-        </p>
-      </div>
-
-      <div class="levelUp-wrapper">
-        <div class="levelUp-price">
-          <h3>Level IV: Timeline Educational Records</h3>
-          <h3>$2,500.00</h3>
-        </div>
-
-        <p>
-          Parents are not proficient in the IEP Process and can continue on
+          Educational Plan.`,
+        },
+        {
+          name: "Level IV: Timeline Educational Records",
+          price: "$2,500.00",
+          details: `Parents are not proficient in the IEP Process and can continue on
           their own to be effective advocates for their child. Certificate of
           Completion as having acquired the skill set level of an effective
           advocator for their child. Parents have the opportunity to pay a
@@ -117,22 +113,32 @@
           Transition Assessments for future preparation for getting a job or
           college, live independently and participate in the community.
           Assistance with Transition Assessments is a step to helping your child
-          set goals in the future.
-        </p>
-
-        <h4>Anticipated/Expected Outcome:</h4>
-        <p>
-          Parents are now trained to be an effective advocate for their child
+          set goals in the future.`,
+          anticipatedDetails: `Parents are now trained to be an effective advocate for their child
           until graduation and can determine if services provided by the school
           are meeting the child’s needs and is the school providing a FAPE [Free
-          Appropriate Public Education].
-        </p>
-      </div>
-    </div>
-
-    <Footer />
-  </div>
-</template>
+          Appropriate Public Education].`,
+        },
+      ],
+      shoppingCart: [],
+    };
+  },
+  methods: {
+    addToList: (item: string) => {
+      if (!item) return;
+      // Split the string at the comma
+      // Create an object
+      // Push that object into the array list
+      // Prams should be title & price
+    },
+    removeFromList: (item: string) => {
+      // Split the string at the comma
+      // Use the title to search if that's item is in the array
+      // remove that item from the purchase list
+    },
+  },
+});
+</script>
 
 <style lang="scss" scoped>
 .services {

@@ -3,7 +3,7 @@
     <div class="review-header">
       <h4>IN YOUR PACK</h4>
     </div>
-    <div class="item-wrapper">
+    <div v-if="purchaseList.length" class="item-wrapper">
       <div class="item-container">
         <div class="item-icon">Icon</div>
         <div class="item-title">
@@ -11,32 +11,16 @@
         </div>
         <div class="item-price">$75.00</div>
       </div>
-      <div class="item-container">
-        <div class="item-icon">Icon</div>
-        <div class="item-title">
-          <p>Level II: Critical Assessment Phase</p>
-        </div>
-        <div class="item-price">$375.00</div>
-      </div>
-      <div class="item-container">
-        <div class="item-icon">Icon</div>
-        <div class="item-title">
-          <p>Level III: Parent Notebook and Parent Training</p>
-        </div>
-        <div class="item-price">$1,075.00</div>
-      </div>
-      <div class="item-container">
-        <div class="item-icon">Icon</div>
-        <div class="item-title">
-          <p>Level IV: Timeline Educational Records</p>
-        </div>
-        <div class="item-price">$2,500.00</div>
-      </div>
     </div>
-    <div class="total-container">
-      <button>PayPal Button</button>
-      <p>Total: $375.00</p>
+    <div v-else class="empty-cart">
+      <img src="~/../assets/imgs/shopping_add.svg" />
+      <p>
+        Add one or more of our amazing services,<br />so your cart is not so
+        empty.
+      </p>
     </div>
+    <div v-if="purchaseList.length" class="total-container">
+      <p>Total: $375.00 {{ purchaseList.length }}</p>
     </div>
   </div>
 </template>
@@ -47,6 +31,9 @@ export default Vue.extend({
   data() {
     return {};
   },
+  props: {
+    purchaseList: Array,
+  },
   methods: {},
 });
 </script>
@@ -55,8 +42,8 @@ export default Vue.extend({
 .review {
   &-container {
     border: 1px solid #ccc;
-     border-radius: 8px;
-    background: 	#f7f7f7;
+    border-radius: 8px;
+    background: #f7f7f7;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -64,8 +51,8 @@ export default Vue.extend({
     right: 45px;
     width: 400px;
     height: auto;
-    -webkit-box-shadow: 0px 4px 10px -3px rgba(112,112,112,0.84); 
-box-shadow: 0px 4px 10px -3px rgba(112,112,112,0.84);
+    -webkit-box-shadow: 0px 4px 10px -3px rgba(112, 112, 112, 0.84);
+    box-shadow: 0px 4px 10px -3px rgba(112, 112, 112, 0.84);
   }
 
   &-header {
@@ -84,49 +71,67 @@ box-shadow: 0px 4px 10px -3px rgba(112,112,112,0.84);
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
-      border-bottom: 1px solid #ccc;
-      &:last-child{
-        border: none;
-      }
+    border-bottom: 1px solid #ccc;
+    &:last-child {
+      border: none;
+    }
     div {
       display: flex;
       align-items: center;
     }
   }
-  &-icon{
+  &-icon {
     width: 45px;
     padding-left: 16px;
   }
 
-  &-title{
+  &-title {
     flex-wrap: wrap;
     width: 220px;
     padding-left: 5px;
-    font-weight: 600;;
+    font-weight: 600;
   }
 
-  &-price{
+  &-price {
     width: 80px;
     justify-content: flex-end;
     font-weight: 600;
-   padding-left: 16px;
+    padding-left: 16px;
   }
-
-
 }
 
-.total{
-  &-container{
+.total {
+  &-container {
     background-color: white;
     border-top: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
     padding: 24px 16px;
 
-    p{
+    p {
       font-size: 18px;
-      font-weight: bold;;
+      font-weight: bold;
     }
+  }
+}
+
+.empty-cart {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+
+  p {
+    padding-bottom: 15px;
+  }
+
+  img {
+    width: 120px;
+    margin-bottom: -20px;
   }
 }
 </style>
