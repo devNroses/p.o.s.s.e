@@ -8,11 +8,12 @@
       </div>
       <div class="levelUp-wrapper" v-for="(service, i) of services" :key="i">
         <div class="levelUp-price">
-          <div class="price-header">
-            <h3>{{ service.name }}</h3>
-            <button>Add Service</button>
+          <h3 class="levelUp-name">{{ service.name }}</h3>
+
+          <div class="levelUp-purchase">
+            <button>Buy Service</button>
+            <h3>{{ service.price }}</h3>
           </div>
-          <h3>{{ service.price }}</h3>
         </div>
 
         <p>
@@ -184,8 +185,6 @@ export default Vue.extend({
     h3 {
       color: #383f34;
       font-size: 22px;
-      margin-top: 10px;
-      margin-bottom: 5px;
     }
   }
 }
@@ -266,12 +265,46 @@ export default Vue.extend({
       margin-bottom: -10px;
     }
   }
+  &-purchase {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+    margin-top: -15px;
+
+    button {
+      background-color: #669139;
+      border-radius: 8px;
+      border: none;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      height: 40px;
+      margin-right: 30px;
+      margin-bottom: 18px;
+      padding: 8px 16px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #d5b9b2 !important;
+      }
+    }
+
+    h3 {
+      padding: 8px 16px;
+    }
+  }
 
   &-price {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: 1px solid gray;
     margin-bottom: 5px;
+  }
+
+  &-name {
+    min-width: 380px;
+    max-width: 580px;
   }
 }
 </style>
