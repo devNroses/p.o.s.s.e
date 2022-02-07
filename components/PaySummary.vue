@@ -2,14 +2,15 @@
   <div class="review-container">
     <div class="review-header">
       <h4>IN YOUR PACK</h4>
+      <span>({{ purchaseList.length }})</span>
     </div>
     <div v-if="purchaseList.length" class="item-wrapper">
-      <div class="item-container">
+      <div class="item-container" v-for="(item, i) of purchaseList" :key="i">
         <div class="item-icon">Icon</div>
         <div class="item-title">
-          <p>Level I: Consultation Phase</p>
+          <p>{{ item.name }}</p>
         </div>
-        <div class="item-price">$75.00</div>
+        <div class="item-price">{{ `$${item.price}.00` }}</div>
       </div>
     </div>
     <div v-else class="empty-cart">
@@ -20,7 +21,7 @@
       </p>
     </div>
     <div v-if="purchaseList.length" class="total-container">
-      <p>Total: $375.00 {{ purchaseList.length }}</p>
+      <p>Total: {{ total }}</p>
     </div>
   </div>
 </template>
@@ -29,12 +30,14 @@
 import Vue from "vue";
 export default Vue.extend({
   data() {
-    return {};
+    return {
+      total: 0,
+    };
   },
-  props: {
-    purchaseList: Array,
+  props: ["purchaseList"],
+  methods: {
+    calculate() {},
   },
-  methods: {},
 });
 </script>
 

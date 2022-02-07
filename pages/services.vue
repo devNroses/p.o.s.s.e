@@ -10,10 +10,15 @@
         <div class="levelUp-price">
           <div>
             <h3 class="levelUp-name">{{ service.name }}</h3>
-            <p class="price">{{ service.price }}</p>
+            <p class="price">{{ `$${service.price}.00` }}</p>
           </div>
 
-          <button class="purchaseButton">Buy Service</button>
+          <button
+            v-on:click="updatePurchaseList(service)"
+            class="purchaseButton"
+          >
+            Purchase service
+          </button>
         </div>
 
         <p>
@@ -38,7 +43,7 @@ export default Vue.extend({
       services: [
         {
           name: "Level I: Consultation Phase",
-          price: "$75.00",
+          price: "75",
           details: ` Conference with Parent(s) to discuss the overall performance of the
           child's educational background through their grade level. This will
           enable P.O.S.S.E. to fully understand the child's learning challenges
@@ -53,7 +58,7 @@ export default Vue.extend({
         },
         {
           name: "Level II: Critical Assessment Phase",
-          price: "$375.00",
+          price: "375",
           details: `Initial Assessment of what tests have been given and if the school has
           done a thorough evaluation in all areas of suspected disability for
           the child. Review records Parents have from the school. Prepare detail
@@ -74,7 +79,7 @@ export default Vue.extend({
         },
         {
           name: "Level III: P.O.S.S.E. Parent Notebook and Parent Training",
-          price: "$1,075.00",
+          price: "1,075",
           details: `Parent receives notebook with all of child’s records in Chronological
           order with worksheet and progress sheets for upcoming IEP meetings,
           begin parent training with P.O.S.S.E. until completion of IEP process;
@@ -94,7 +99,7 @@ export default Vue.extend({
         },
         {
           name: "Level IV: Timeline Educational Records",
-          price: "$2,500.00",
+          price: "2,500",
           details: `Parents are not proficient in the IEP Process and can continue on
           their own to be effective advocates for their child. Certificate of
           Completion as having acquired the skill set level of an effective
@@ -125,17 +130,19 @@ export default Vue.extend({
     };
   },
   methods: {
-    addToList: (item: string) => {
-      if (!item) return;
-      // Split the string at the comma
-      // Create an object
-      // Push that object into the array list
-      // Prams should be title & price
+    updatePurchaseList(item) {
+      const resutOfCheck = this.hasItem(item);
+      if (resutOfCheck) {
+        this.shoppingCart = this.shoppingCart.filter(
+          (el) => el.name !== item.name
+        );
+      } else {
+        this.shoppingCart.push(item);
+      }
+      console.log("Current Cart: ", this.shoppingCart);
     },
-    removeFromList: (item: string) => {
-      // Split the string at the comma
-      // Use the title to search if that's item is in the array
-      // remove that item from the purchase list
+    hasItem(checkItem) {
+      return this.shoppingCart.some((item) => item.name === checkItem.name);
     },
   },
 });
