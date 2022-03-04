@@ -2,10 +2,14 @@
   <div class="review-container">
     <div class="review-header">
       <h4>IN YOUR PACK</h4>
-      <span>({{ purchaseList.length }})</span>
     </div>
     <div v-if="purchaseList.length" class="item-wrapper">
-      <div class="item-container" v-for="(item, i) of purchaseList" :key="i">
+      <div
+        v-on:click="removeItem(item)"
+        class="item-container"
+        v-for="(item, i) of purchaseList"
+        :key="i"
+      >
         <div class="item-icon">Icon</div>
         <div class="item-title">
           <p>{{ item.name }}</p>
@@ -21,7 +25,7 @@
       </p>
     </div>
     <div v-if="purchaseList.length" class="total-container">
-      <p>Total: {{ total }}</p>
+      <p>Total: ${{ cartTotal.toLocaleString("en-US") }}</p>
     </div>
   </div>
 </template>
@@ -29,15 +33,7 @@
 <script lang="ts">
 import Vue from "vue";
 export default Vue.extend({
-  data() {
-    return {
-      total: 0,
-    };
-  },
-  props: ["purchaseList"],
-  methods: {
-    calculate() {},
-  },
+  props: ["purchaseList", "cartTotal", "removeItem"],
 });
 </script>
 
@@ -75,6 +71,9 @@ export default Vue.extend({
     padding-top: 5px;
     padding-bottom: 5px;
     border-bottom: 1px solid #ccc;
+    &:hover {
+      cursor: pointer;
+    }
     &:last-child {
       border: none;
     }
