@@ -50,38 +50,20 @@ export default Vue.extend({
       console.log("Total inside of Test: ", this.cartTotal);
     },
   },
-  methods: {
-    getPayPalItems() {
-      if (!this.purchaseList.length) return [];
-      let list: any[] = [];
-      console.log("Hitting Get Paypal Items: ", this.purchaseList);
-      this.purchaseList.forEach((item) => {
-        list.push({
-          name: item.name,
-          description: "P.O.S.S.E. Service",
-          unit_amount: {
-            currency_code: "USD",
-            value: item.price,
-            quantity: "1",
-          },
-        });
-      });
-
-      return list;
-    },
-  },
   mounted: async () => {
     let paypal;
     let paypalTotalPrice = document.getElementById("total-price");
     paypalTotalPrice.addEventListener("DOMCharacterDataModified", () => {});
 
-    try {
-      paypal = await loadScript({
-        "client-id":
-          "ASqBo7j8sH4-ycYu9vWafVIOiRrQ8Bs4wLZIwI6ueFiMQ4_3hrEh0gpeTQYvPc_WaqhW6Fdfp5-hRq96",
-      });
-    } catch (error) {
-      console.error("failed to load the PayPal JS SDK script", error);
+    if (!paypal) {
+      try {
+        paypal = await loadScript({
+          "client-id":
+            "ASqBo7j8sH4-ycYu9vWafVIOiRrQ8Bs4wLZIwI6ueFiMQ4_3hrEh0gpeTQYvPc_WaqhW6Fdfp5-hRq96",
+        });
+      } catch (error) {
+        console.error("failed to load the PayPal JS SDK script", error);
+      }
     }
 
     if (paypal) {
@@ -143,8 +125,9 @@ export default Vue.extend({
               return actions.order.capture().then(function (details) {
                 // This function shows a transaction success message to your buyer.
                 alert(
-                  "Transaction completed by " + details.payer.name.given_name
+                  `Hi ${details.payer.name.given_name}, your transaction has been completed.`
                 );
+                window.location.reload();
               });
             },
           })
