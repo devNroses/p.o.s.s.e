@@ -10,7 +10,9 @@
         v-for="(item, i) of purchaseList"
         :key="i"
       >
-        <div class="item-icon">Icon</div>
+        <div class="item-icon">
+          <img src="~/../assets/imgs/shoppingTag.svg" />
+        </div>
         <div id="itemTitle" class="item-title">
           <p>{{ item.name }}</p>
         </div>
