@@ -24,16 +24,149 @@
         empty.
       </p>
     </div>
-    <div v-if="purchaseList.length" class="total-container">
-      <p>Total: ${{ cartTotal.toLocaleString("en-US") }}</p>
+    <div v-show="purchaseList.length" class="total-container">
+      <p>
+        <b>Total:</b> $<span id="total-price">{{
+          cartTotal.toLocaleString("en-US")
+        }}</span>
+      </p>
+      <div id="purchaseButtons"></div>
+      <div>
+        <paypal-buttons />
+      </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
+import { loadScript } from "@paypal/paypal-js";
 export default Vue.extend({
   props: ["purchaseList", "cartTotal", "removeItem"],
+  computed: {
+    test() {
+      console.log("Total inside of Test: ", this.cartTotal);
+    },
+  },
+  methods: {
+    //  createOrder: function(data, actions) {
+    //   return actions.order.create({
+    //      "purchase_units": [{
+    //         "amount": {
+    //           "currency_code": "USD",
+    //           "value": "100",
+    //           "breakdown": {
+    //             "item_total": {  /* Required when including the `items` array */
+    //               "currency_code": "USD",
+    //               "value": "100"
+    //             }
+    //           }
+    //         },
+    //         "items": [
+    //           {
+    //             "name": "First Product Name", /* Shows within upper-right dropdown during payment approval */
+    //             "description": "Optional descriptive text..", /* Item details will also be in the completed paypal.com transaction view */
+    //             "unit_amount": {
+    //               "currency_code": "USD",
+    //               "value": "50"
+    //             },
+    //             "quantity": "2"
+    //           },
+    //         ]
+    //       }]
+    //   });
+    // },
+    getPayPalItems() {
+      if (!this.purchaseList.length) return [];
+      let list: any[] = [];
+      console.log("Hitting Get Paypal Items: ", this.purchaseList);
+      this.purchaseList.forEach((item) => {
+        list.push({
+          name: item.name,
+          description: "P.O.S.S.E. Service",
+          unit_amount: {
+            currency_code: "USD",
+            value: item.price,
+            quantity: "1",
+          },
+        });
+      });
+
+      return list;
+    },
+  },
+  mounted: async () => {
+    let paypal;
+    let paypalTotalPrice = document.getElementById("total-price");
+    paypalTotalPrice.addEventListener("DOMCharacterDataModified", () => {});
+
+    try {
+      paypal = await loadScript({
+        "client-id":
+          "ASqBo7j8sH4-ycYu9vWafVIOiRrQ8Bs4wLZIwI6ueFiMQ4_3hrEh0gpeTQYvPc_WaqhW6Fdfp5-hRq96",
+      });
+    } catch (error) {
+      console.error("failed to load the PayPal JS SDK script", error);
+    }
+
+    if (paypal) {
+      try {
+        await paypal
+          .Buttons({
+            createOrder: function (data, actions) {
+              let paypalTotalPrice = document.getElementById("total-price");
+              return actions.order.create({
+                purchase_units: [
+                  {
+                    amount: {
+                      currency_code: "USD",
+                      value: paypalTotalPrice.innerText
+                        .replace(/\s/g, "")
+                        .replace(/,/g, "") as string,
+                      breakdown: {
+                        item_total: {
+                          /* Required when including the `items` array */
+                          currency_code: "USD",
+                          value: paypalTotalPrice.innerText
+                            .replace(/\s/g, "")
+                            .replace(/,/g, "") as string,
+                        },
+                      },
+                    },
+                    items: [
+                      {
+                        name: "First Product Name" /* Shows within upper-right dropdown during payment approval */,
+                        description:
+                          "Optional descriptive text.." /* Item details will also be in the completed paypal.com transaction view */,
+                        unit_amount: {
+                          currency_code: "USD",
+                          value: paypalTotalPrice.innerText
+                            .replace(/\s/g, "")
+                            .replace(/,/g, "") as string,
+                        },
+                        quantity: "1",
+                      },
+                    ],
+                  },
+                ],
+              });
+            },
+            onApprove: function (data, actions) {
+              // This function captures the funds from the transaction.
+              return actions.order.capture().then(function (details) {
+                // This function shows a transaction success message to your buyer.
+                alert(
+                  "Transaction completed by " + details.payer.name.given_name
+                );
+              });
+            },
+          })
+          .render("#purchaseButtons");
+      } catch (error) {
+        console.error("failed to render the PayPal Buttons", error);
+      }
+    }
+  },
 });
 </script>
 
@@ -107,11 +240,13 @@ export default Vue.extend({
     background-color: white;
     border-top: 1px solid #ccc;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 24px 16px;
 
     p {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: bold;
     }
   }

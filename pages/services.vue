@@ -1,7 +1,11 @@
 <template>
   <div>
     <Nav />
-    <PaySummary :purchaseList="shoppingCart" />
+    <PaySummary
+      :purchaseList="shoppingCart"
+      :cartTotal="finalTotal"
+      :removeItem="(e) => updatePurchaseList(e)"
+    />
     <div class="services-wrapper">
       <div class="services-intro">
         <h2 class="pageTitle">P.O.S.S.E. Services</h2>
@@ -79,7 +83,7 @@ export default Vue.extend({
         },
         {
           name: "Level III: P.O.S.S.E. Parent Notebook and Parent Training",
-          price: "1,075",
+          price: "1075",
           details: `Parent receives notebook with all of child’s records in Chronological
           order with worksheet and progress sheets for upcoming IEP meetings,
           begin parent training with P.O.S.S.E. until completion of IEP process;
@@ -99,7 +103,7 @@ export default Vue.extend({
         },
         {
           name: "Level IV: Timeline Educational Records",
-          price: "2,500",
+          price: "2500",
           details: `Parents are not proficient in the IEP Process and can continue on
           their own to be effective advocates for their child. Certificate of
           Completion as having acquired the skill set level of an effective
@@ -127,6 +131,7 @@ export default Vue.extend({
         },
       ],
       shoppingCart: [],
+      finalTotal: 0,
     };
   },
   methods: {
@@ -139,10 +144,19 @@ export default Vue.extend({
       } else {
         this.shoppingCart.push(item);
       }
-      console.log("Current Cart: ", this.shoppingCart);
+      this.totalValue();
     },
     hasItem(checkItem) {
       return this.shoppingCart.some((item) => item.name === checkItem.name);
+    },
+    totalValue() {
+      let total = 0;
+      if (this.shoppingCart.length) {
+        for (let item of this.shoppingCart) {
+          total = total + parseInt(item.price);
+          this.finalTotal = total;
+        }
+      }
     },
   },
 });

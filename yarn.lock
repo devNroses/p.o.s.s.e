@@ -1395,10 +1395,10 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
-"@paypal/paypal-js@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@paypal/paypal-js/-/paypal-js-5.0.1.tgz#d2884d5a36b4307a57f0a8f317644bff5a71c58e"
-  integrity sha512-qm17kEm/5w6B3AOx95YWFCb167OVis0/CBqDRQNQUBmDjqEe15qxk3U8LLxKeVvIyij5agx4gAyVcwkd8f6nVA==
+"@paypal/paypal-js@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@paypal/paypal-js/-/paypal-js-5.0.2.tgz#bf07d7ae3f397070f67b4727982365a44faa836e"
+  integrity sha512-bRQ6P0sftCkunQXKjujDjxCbfCdIZpn29JoQU5HTW50lV1yFGKf8q9DJIAnzHPgDDc0CTJ27dlkLD94oKEd6Jg==
   dependencies:
     promise-polyfill "^8.2.1"
 
