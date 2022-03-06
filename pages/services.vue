@@ -41,7 +41,11 @@
 
 <script lang="ts">
 import Vue from "vue";
+import PaySummary from "../components/PaySummary.vue";
 export default Vue.extend({
+  components: {
+    PaySummary,
+  },
   data() {
     return {
       services: [

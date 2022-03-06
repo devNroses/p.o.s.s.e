@@ -11,10 +11,10 @@
         :key="i"
       >
         <div class="item-icon">Icon</div>
-        <div class="item-title">
+        <div id="itemTitle" class="item-title">
           <p>{{ item.name }}</p>
         </div>
-        <div class="item-price">{{ `$${item.price}.00` }}</div>
+        <div id="itemPrice" class="item-price">${{ `${item.price}` }}.00</div>
       </div>
     </div>
     <div v-else class="empty-cart">
@@ -49,33 +49,6 @@ export default Vue.extend({
     },
   },
   methods: {
-    //  createOrder: function(data, actions) {
-    //   return actions.order.create({
-    //      "purchase_units": [{
-    //         "amount": {
-    //           "currency_code": "USD",
-    //           "value": "100",
-    //           "breakdown": {
-    //             "item_total": {  /* Required when including the `items` array */
-    //               "currency_code": "USD",
-    //               "value": "100"
-    //             }
-    //           }
-    //         },
-    //         "items": [
-    //           {
-    //             "name": "First Product Name", /* Shows within upper-right dropdown during payment approval */
-    //             "description": "Optional descriptive text..", /* Item details will also be in the completed paypal.com transaction view */
-    //             "unit_amount": {
-    //               "currency_code": "USD",
-    //               "value": "50"
-    //             },
-    //             "quantity": "2"
-    //           },
-    //         ]
-    //       }]
-    //   });
-    // },
     getPayPalItems() {
       if (!this.purchaseList.length) return [];
       let list: any[] = [];
@@ -115,6 +88,31 @@ export default Vue.extend({
           .Buttons({
             createOrder: function (data, actions) {
               let paypalTotalPrice = document.getElementById("total-price");
+              let listItems: any[] = [];
+              let paypalItemsByTitle = document.querySelectorAll("#itemTitle");
+              let paypalItemsByPrice = document.querySelectorAll("#itemPrice");
+
+              for (let i = 0; i < paypalItemsByTitle.length; i++) {
+                let firstSplit = paypalItemsByTitle[i]?.innerHTML.split(">");
+                let descriptionName = firstSplit[1].split("<");
+                listItems.push({
+                  name: descriptionName[0],
+                  description: "P.O.S.S.E. service",
+                  quantity: "1",
+                });
+              }
+
+              if (listItems.length > 0) {
+                for (let i = 0; i < listItems.length; i++) {
+                  let firstSplit = paypalItemsByPrice[i]?.innerHTML.split("$");
+                  let itemPrice = firstSplit[1].split(".00");
+                  listItems[i].unit_amount = {
+                    currency_code: "USD",
+                    value: itemPrice[0],
+                  };
+                }
+              }
+
               return actions.order.create({
                 purchase_units: [
                   {
@@ -133,20 +131,7 @@ export default Vue.extend({
                         },
                       },
                     },
-                    items: [
-                      {
-                        name: "First Product Name" /* Shows within upper-right dropdown during payment approval */,
-                        description:
-                          "Optional descriptive text.." /* Item details will also be in the completed paypal.com transaction view */,
-                        unit_amount: {
-                          currency_code: "USD",
-                          value: paypalTotalPrice.innerText
-                            .replace(/\s/g, "")
-                            .replace(/,/g, "") as string,
-                        },
-                        quantity: "1",
-                      },
-                    ],
+                    items: listItems,
                   },
                 ],
               });
