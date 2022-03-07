@@ -127,7 +127,7 @@ export default Vue.extend({
                 alert(
                   `Hi ${details.payer.name.given_name}, your transaction has been completed.`
                 );
-                window.location.reload();
+                // window.location.reload();
               });
             },
           })
