@@ -46,16 +46,19 @@
           learning challenges will achieve success in school.
         </p>
         <p>
-          Hidden Disabilities is a term referring to a child that appears
-          intelligent; however, the child is unable to demonstrate the skill
-          level expected from a child of a similar age. Invisible Disability, or
-          Hidden Disability, is an umbrella term that captures a whole spectrum
-          of hidden disabilities or challenges that are primarily neurological
-          in nature. Invisible disability, or hidden disability are defined as
-          disabilities that are not immediately apparent. A child that appears
-          intelligent; however, the child is unable to demonstrate the skill
-          level expected from a child of a similar age, may have a hidden
-          disability or invisible disability.
+          Globally 1 in 7 of us live with a disability. And of those 80% are
+          invisible. That is 1 Billion people who are living with a non-visible
+          disability. While some of us experience a disability that is visible,
+          many of us have a non-visible impairment or condition. [Journal of
+          Sport Psychology in Action-Children.] In children, when we refer to a
+          "Hidden Disabilities," a child that appears intelligent; however, the
+          child is unable to demonstrate the skill level expected from a child
+          of a similar age and grade level. Invisible Disabilities can be
+          physical, mental or neurological conditions that can limit or
+          challenge a child's movement, senses or activities and can impact
+          their ability to learn. Our children can experience a combination of
+          both visible and non-visible impairments and conditions.<br />
+          "JUST BECAUSE YOU CAN'T SEE IT, DOESN'T MEAN THAT IT IS NOT THERE"
         </p>
         <p>
           Various learning challenges include: Dyscalculia affects a child's
@@ -66,24 +69,41 @@
           such as a facial expression or body language and may have poor
           coordination; Oral/Written Language Disorder and Specific Reading
           Comprehension Deficit affects a child's understanding of what they are
-          reading or of spoken language.. Dyspraxia is a neurological (or
+          reading or of spoken language. Dyspraxia is a neurological (or
           brain-based) disorder that impacts a child’s ability relating to gross
           motor skills, motor planning and coordination.
         </p>
         <p>
-          ADHD [Attention-Deficit Hyperactivity Disorder] is a treatable,
-          neurodevelopmental disorder. Symptoms include: difficulty for a child
-          to stay focused or pay attention causing the child to have difficulty
-          controlling their behavior and exhibiting hyperactivity.
+          Attention-Deficit/Hyperactivity Disorder (ADHD) is a brain disorder.
+          Scientists have shown that there are differences in the brains of
+          children with ADHD and some of these differences change as a child
+          ages and matures. The front of the brain behind the forehead is the
+          frontal lobe. The frontal lobe is the part of the brain that helps
+          children to organize, plan, pay attention, and make decisions. Parts
+          of the frontal lobe may mature a few years later in children with
+          ADHD. The frontal lobe is the area of the brain responsible for:
+          Problem Solving; Memory; Language; Motivation; Judgment; Impulse
+          Control; Social Behavior; Planning; Decision-making; Attention;
+          Ability to delay Gratification and Time Perception [American Academy
+          of Child &amp; Adolescent Psychiatry].
         </p>
         <p>
-          Executive Functioning Disorder is critical because it helps our
-          children prioritize their tasks. Executive Functioning Disorder is a
-          set of mental skills that include working memory, flexible thinking,
-          and self-control. We use these skills everyday to learn, work, and
-          manage daily life. Executive Functioning Disorder causes the child to
-          have difficulty focusing, following directions, managing emotions and
-          completing tasks.
+          Executive Functions are the cognitive abilities needed to control our
+          thoughts, emotions and actions. How does this relate to children? The
+          phrase "Executive Function" refers to a set of skills. These skills
+          underlie the capacity to plan ahead and meet goals, display
+          self-control, follow multiple-step directions even when interrupted,
+          and stay focused despite distractions, among others. These skills
+          typically develop most rapidly between ages 3-5, followed by another
+          spike in development during the adolescent and early adult years. It
+          takes a long time and a lot of practice to develop them, but,
+          children's executive function skills grow, adults can gradually allow
+          children to manage more and more aspects of their environment. Key:
+          The increasingly competent executive functioning of children and
+          adolescents enables them to plan and act in a way that makes them good
+          students, classroom citizens and friends [Center on the Developing
+          Child Harvard University].<br />
+          "BUILDING CHILDREN'S EXECUTIVE FUNCTION SKILLS BENEFITS EVERYONE."
         </p>
       </div>
     </div>
