@@ -52,82 +52,26 @@ export default Vue.extend({
         {
           name: "Level I: Consultation Phase",
           price: "75",
-          details: ` Conference with Parent(s) to discuss the overall performance of the
-          child's educational background through their grade level. This will
-          enable P.O.S.S.E. to fully understand the child's learning challenges
-          and how this is affecting their productivity within the classroom
-          setting. Discuss how the child qualified i.e.”Eligibility” for
-          services. Discuss Parent’s role at their child’s IEP meeting; Discuss
-          what Parents should expect in an IEP Meeting; Who should attend their
-          child’s IEP meeting with relation to their child’s teachers.`,
-          anticipatedDetails: `Parents become familiar and can begin to understand the in depth
-          process of their child’s educational needs and begin to understand the
-          IEP Process as it pertains to their child.`,
+          details: `One hour Conference with Parent(s) to discuss in detail the child's educational background and performance through grade level. This will enable P.O.S.S.E. to fully understand the child's learning challenges and how this is affecting their productivity within the classroom setting and will be shared with parents.  We will discuss what an IEP should include. We will discuss the Referral, Identification and Eligibility of the child and role of Parents in the IEP Process.`,
+          anticipatedDetails: `Parents are familiarized with the IEP Process and can begin to understand the in-depth process of their child's educational needs and how this is affecting their productivity within the classroom setting presently. Parents are able to make an informed decision if our program is appropriate in assisting with their child's needs.`,
         },
         {
           name: "Level II: Critical Assessment Phase",
           price: "375",
-          details: `Initial Assessment of what tests have been given and if the school has
-          done a thorough evaluation in all areas of suspected disability for
-          the child. Review records Parents have from the school. Prepare detail
-          written correspondence to School Prinicipal/District to obtain ALL
-          records, tests, assessments and protocols through grade level from all
-          schools of child’s attendance. Determine based on school records
-          whether child is performing at grade level or below grade level.
-          Review Present levels of Performance (PLOP). Determine any unique
-          needs that the child may have that are not identified by the school or
-          on the IEP; Determine what services the school has implemented to
-          address each need; what will the child be able to accomplish as a
-          result of the services. Review all IEP Goals and Objectives on the
-          current IEP and fomer IEPs; Advice of additional assessments for the
-          child.`,
-          anticipatedDetails: `Parents will be able to make an informed decision as to where the
-          child is performing grade level and if the child has made measurable
-          educational gains as provided under IDEA.`,
+          details: `Obtain All Initial Assessments that have already been administered to the child by the School. Obtain all school records including all IEPs. Prepare Written Plan of Action within our program for Parent(s) to include the following: Present Levels of Performance (PLOP). This PLOP will include the Annual Goals, Benchmarks, Measuring and Reporting Progress that can be determined after records review and incorporated in the Plan of Action. Determine any unique needs that the child may have that are not identified by the school or on the IEP.  Determine what services the school has implemented to address each need; what will the child be able to accomplish as a result of the services that the school has placed on the IEP. This is critical because P.O.S.S.E. can determine if the child is receiving a FAPE. Detailed correspondence to School Principal/District to obtain ALL records, tests, assessments, protocols and IEPs through grade level from all schools of child's attendance.`,
+          anticipatedDetails: `Parents will be able to determine from this session whether the services on the IEP are projecting that the child is making Measurable Educational gains as provided under IDEA. Parents can determine after receiving their Written Plan of Action if our program is appropriate for their child and they wish to retain services of P.O.S.S.E. to assist. 
+`,
         },
         {
           name: "Level III: P.O.S.S.E. Parent Notebook and Parent Training",
-          price: "1075",
-          details: `Parent receives notebook with all of child’s records in Chronological
-          order with worksheet and progress sheets for upcoming IEP meetings,
-          begin parent training with P.O.S.S.E. until completion of IEP process;
-          preparation of Parent Agenda for Meetings; Review and discuss all
-          Evaluation assessments that were given to child; Review and make sure
-          Parents have all reports three days before the IEP Meeting to discuss
-          at meeting; Pre-IEP meeting with Parent to address concerns;
-          attendance at two IEP Meetings (Via Zoom) or in person if applicable;
-          Recording of IEP Notices given.`,
-          anticipatedDetails: `Parents have completed the training program and will have the
-          knowledge and understanding to continue to plan for their child's
-          educational needs as the child progresses through each grade level.
-          Parents are prepared to begin advocating for their child and
-          understand what has to be provided by the school under IDEA and what
-          their child is entitled to under the law on their child’s Independent
-          Educational Plan.`,
+          price: "1800",
+          details: `Parent will receive Working IEP Notebook with all of child's records in Chronological Order with preparation worksheets for upcoming IEP meetings.  Parents will be trained via Zoom or in person if possible (COVID) regarding preparing for IEP meetings.  The training will entail the use of the binder and how to advocate using the school records and reports for services for their child.  Parents will be provided with all reports or assessments that have been given by school at least three days before the IEP meeting and will be reviewed by P.O.S.S.E. and parent in preparation for the meeting. Pre-IEP meetings will take place via Zoom with Parent. An outline will be provided to Parent for upcoming IEP meeting with Parent's concerns to be discussed at meeting. P.O.S.S.E. will continue with development of the IEP and drafts until the IEP addresses SMART GOALS: Specific, Measurable, Achievable, Realistic and Time-Bound. It can take up to one year to work with the Parent and school district.  Parent training continually throughout this phase of the program. P.O.S.S.E. will be present with Parent either Zoom or in person at the IEP meetings through the duration of the preparation of the IEP for the child.`,
+          anticipatedDetails: `Parents through the program are now thoroughly trained and equipped with the understanding of how the special education system works and are able to advocate for their child.  Parents will have skill sets as an advocator to communicate effectively and in collaboration with the school and maintain a professional relationship. Parents will know the right questions to ask. Parents will be prepared, organized and ready to attend the meetings. Parents will be able to express their child's needs in a clear and concise manner. Parents will learn how to communicate effectively with teachers and other school personnel to create an effective learning environment for their child and to ensure that their child's school is providing the services or programs that he or she needs to succeed in school. Parents will be empowered with knowing their rights as a Parent.`,
         },
         {
-          name: "Level IV: Timeline Educational Records",
-          price: "2500",
-          details: `Parents are not proficient in the IEP Process and can continue on
-          their own to be effective advocates for their child. Certificate of
-          Completion as having acquired the skill set level of an effective
-          advocator for their child. Parents have the opportunity to pay a
-          membership fee for services for P.O.S.S.E. to assist with future IEP
-          for their child until 12th grade and assistance with College
-          Preparatory Services with P.O.S.S.E.'s affiliate. Services of all
-          above and Extensive Detailed Timeline regarding educational time
-          records of child through current grade level; Continued Training of
-          Parent; classroom observations if applicable; Visit of campus site
-          regarding appropriate placement per the goals and objectives of the
-          IEP; Attendance at all IEP meetings. Notes from IEP Meetings for
-          Parents to add as a Addendum to meeting notes; Review draft IEP with
-          Parents and continue until final IEP is in place for the child.
-          Assistance with Transitional services for child if appropriate;
-          Assistance with Extended School Year. Assistance with preparing
-          Transition Assessments for future preparation for getting a job or
-          college, live independently and participate in the community.
-          Assistance with Transition Assessments is a step to helping your child
-          set goals in the future.`,
+          name: "Level IV: Prepare Detailed Timeline Chart of Child's Educational Records",
+          price: "3800",
+          details: `Parents are now proficient in the IEP Process and can continue on their own to be effective advocates for their child.  Certificate of Completion as having acquired the skill set level of an effective advocator for their child.  Parents have the opportunity to pay a membership fee for continued services for P.O.S.S.E. to assist with all future IEP's for their child through 12th grade and assistance with College Preparatory Services with P.O.S.S.E.'s affiliate company.  Services of all above. Continued Training with P.O.S.S.E and Parent in advocacy skills for their child's IEP services; Classroom observations if applicable; Visits for on campus sites regarding appropriate placement per the goals and objectives on the IEP.  Attendance at all IEP Meetings (Zoom or in person); P.O.S.S.E. takes Notes from IEP Meetings for Parents to add as an Addendum to meeting Notes; Review Draft IEP with Parents and continue until Final IEP is in place for the child.  Assistance with Transitional services for child if appropriate; Assistance with Extended School Year.  Assistance with preparing Transition Assessments for future preparation for getting a job, college or living independently. Assistance with Transition Assessments is a step to helping your child set goals in the future. Parents will be provided a USB data entry stick to enter data on their Child's Timeline Chart and training on data entry.  P.O.S.S.E. will assist and attend for Mediation Sessions with Parent.`,
           anticipatedDetails: `Parents are now trained to be an effective advocate for their child
           until graduation and can determine if services provided by the school
           are meeting the child’s needs and is the school providing a FAPE [Free

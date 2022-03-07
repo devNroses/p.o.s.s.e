@@ -12,32 +12,37 @@
             Children may have difficulty reading, writing, spelling, reasoning,
             recalling and/organizing information if left to figure things out by
             themselves or if taught in conventional ways.
-          </p>
-          <p>
+            <!-- </p>
+          <p> -->
             A learning challenge can be remediated with appropriate
             intervention, strategies and different types of remedial education;
             as: one-to-one tutoring; private tutoring, specialist tutoring, etc.
           </p>
-        </div>
+          <!-- </div>
 
         <div>
           <h3>
             How Do You Know If Your Child Might Have a Learning Challenges?
-          </h3>
+          </h3> -->
 
           <p>
             It is often difficult based on observed behaviors to distinguish
             between slow learners and children with learning challenges. A child
             with learning challenges may have deficits in one or two areas while
-            performing at or above the average standard in other areas. However
-            it is often difficult, based on observed behaviors, to distinguish
-            between slow learners and learning disabled persons. Basically a
-            student with Learning Challenges have deficits in one or two areas
-            while performing at or above the average in other areas. The child’s
-            potential or overall intelligence is greater than his/her poor
-            achievement would predict. This is called the ability-achievement
-            discrepancy. It is possible for a child to have characteristics of
-            both conditions.
+            performing at or above the average standard in other areas. The
+            child's potential or overall intelligence is greater than his/her
+            poor achievement would predict. This is called the
+            ability-achievement discrepancy. The term discrepancy refers to a
+            mismatch between a child's intellectual ability and his/her progress
+            in school. The challenge with this ability-achievement discrepancy
+            is that it can identify kids too late. Students with learning
+            differences often struggle in the early grades. But they rarely show
+            a large enough discrepancy on test scores to be "officially"
+            identified with a learning difference. It is generally not until
+            third or fourth grade that the work gets hard enough for the
+            discrepancy to become large enough. This can lead to a "wait to
+            fail" situation: Children do not receive help until they are doing
+            poorly in school.
           </p>
           <p>
             Actual diagnosis of a learning challenge can be diagnosed by a
