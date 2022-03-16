@@ -1,40 +1,47 @@
 <template>
-  <div class="review-container">
-    <div class="review-header">
-      <h4>IN YOUR PACK</h4>
+  <div>
+    <div v-show="!showFullCart" v-on:click="toggleCartView" class="cartIcon">
+      <img class="cartIcon-img" src="~/../assets/imgs/shopping_add_white.svg" />
+      <span>{{ purchaseList.length }}</span>
     </div>
-    <div v-if="purchaseList.length" class="item-wrapper">
-      <div
-        v-on:click="removeItem(item)"
-        class="item-container"
-        v-for="(item, i) of purchaseList"
-        :key="i"
-      >
-        <div class="item-icon">
-          <img src="~/../assets/imgs/shoppingTag.svg" />
-        </div>
-        <div id="itemTitle" class="item-title">
-          <p>{{ item.name }}</p>
-        </div>
-        <div id="itemPrice" class="item-price">${{ `${item.price}` }}.00</div>
+    <div v-show="showFullCart" class="review-container">
+      <div class="review-header">
+        <h4>IN YOUR PACK</h4>
+        <button v-on:click="toggleCartView">X</button>
       </div>
-    </div>
-    <div v-else class="empty-cart">
-      <img src="~/../assets/imgs/shopping_add.svg" />
-      <p>
-        Add one or more of our amazing services,<br />so your cart is not so
-        empty.
-      </p>
-    </div>
-    <div v-show="purchaseList.length" class="total-container">
-      <p>
-        <b>Total:</b> $<span id="total-price">{{
-          cartTotal.toLocaleString("en-US")
-        }}</span>
-      </p>
-      <div id="purchaseButtons"></div>
-      <div>
-        <paypal-buttons />
+      <div v-if="purchaseList.length" class="item-wrapper">
+        <div
+          v-on:click="removeItem(item)"
+          class="item-container"
+          v-for="(item, i) of purchaseList"
+          :key="i"
+        >
+          <div class="item-icon">
+            <img src="~/../assets/imgs/shoppingTag.svg" />
+          </div>
+          <div id="itemTitle" class="item-title">
+            <p>{{ item.name }}</p>
+          </div>
+          <div id="itemPrice" class="item-price">${{ `${item.price}` }}.00</div>
+        </div>
+      </div>
+      <div v-else class="empty-cart">
+        <img src="~/../assets/imgs/shopping_add.svg" />
+        <p>
+          Add one or more of our amazing services,<br />so your cart is not so
+          empty.
+        </p>
+      </div>
+      <div v-show="purchaseList.length" class="total-container">
+        <p>
+          <b>Total:</b> $<span id="total-price">{{
+            cartTotal.toLocaleString("en-US")
+          }}</span>
+        </p>
+        <div id="purchaseButtons"></div>
+        <div>
+          <paypal-buttons />
+        </div>
       </div>
     </div>
   </div>
@@ -45,9 +52,14 @@ import Vue from "vue";
 import { loadScript } from "@paypal/paypal-js";
 export default Vue.extend({
   props: ["purchaseList", "cartTotal", "removeItem"],
-  computed: {
-    test() {
-      console.log("Total inside of Test: ", this.cartTotal);
+  data() {
+    return {
+      showFullCart: false,
+    };
+  },
+  methods: {
+    toggleCartView() {
+      this.showFullCart = !this.showFullCart;
     },
   },
   mounted: async () => {
@@ -161,6 +173,17 @@ export default Vue.extend({
     background-color: #669139;
     color: white;
     padding: 2px 16px;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background: none;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      cursor: pointer;
+    }
 
     h4 {
       font-weight: bold;
@@ -239,6 +262,35 @@ export default Vue.extend({
   img {
     width: 120px;
     margin-bottom: -20px;
+  }
+}
+
+.cartIcon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #669139;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 45px;
+  right: 45px;
+  cursor: pointer;
+
+  img {
+    stroke: white;
+    width: 80px;
+    margin-left: -20px;
+  }
+
+  span {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -12px;
+    margin-top: 28px;
   }
 }
 </style>
