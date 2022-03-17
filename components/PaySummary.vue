@@ -165,6 +165,11 @@ export default Vue.extend({
     height: auto;
     -webkit-box-shadow: 0px 4px 10px -3px rgba(112, 112, 112, 0.84);
     box-shadow: 0px 4px 10px -3px rgba(112, 112, 112, 0.84);
+
+    @media only screen and (max-width: 390px) {
+      right: 0;
+      left: 0;
+    }
   }
 
   &-header {
@@ -203,6 +208,10 @@ export default Vue.extend({
     div {
       display: flex;
       align-items: center;
+    }
+
+    @media only screen and (max-width: 390px) {
+      padding-right: 8px;
     }
   }
   &-icon {
