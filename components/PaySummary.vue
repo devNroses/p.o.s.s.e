@@ -283,11 +283,12 @@ export default Vue.extend({
     stroke: white;
     width: 80px;
     margin-left: -20px;
+    margin-top: -12px;
   }
 
   span {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     margin-left: -12px;
     margin-top: 28px;
