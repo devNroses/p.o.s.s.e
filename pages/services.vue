@@ -16,12 +16,11 @@
             <h3 class="levelUp-name">{{ service.name }}</h3>
             <p class="price">{{ `$${service.price}.00` }}</p>
           </div>
-
           <button
             v-on:click="updatePurchaseList(service)"
             class="purchaseButton"
           >
-            Purchase service
+            {{ hasItem(service) ? "Remove service" : "Purchase service" }}
           </button>
         </div>
 
