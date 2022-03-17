@@ -17,6 +17,7 @@
             <p class="price">{{ `$${service.price}.00` }}</p>
           </div>
           <button
+            :style="[hasItem(service) ? { backgroundColor: '#373F34' } : '']"
             v-on:click="updatePurchaseList(service)"
             class="purchaseButton"
           >
