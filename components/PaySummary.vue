@@ -6,7 +6,6 @@
     </div>
     <div v-show="showFullCart" class="review-container">
       <div class="review-header">
-        <h4>IN YOUR PACK</h4>
         <button v-on:click="toggleCartView">X</button>
       </div>
       <div v-if="purchaseList.length" class="item-wrapper">
@@ -27,10 +26,7 @@
       </div>
       <div v-else class="empty-cart">
         <img src="~/../assets/imgs/shopping_add.svg" />
-        <p>
-          Add one or more of our amazing services,<br />so your cart is not so
-          empty.
-        </p>
+        <p>Your cart is empty.</p>
       </div>
       <div v-show="purchaseList.length" class="total-container">
         <p>
@@ -172,15 +168,14 @@ export default Vue.extend({
   &-header {
     background-color: #669139;
     color: white;
-    padding: 2px 16px;
+    padding: 12px 16px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 
     button {
       background: none;
       border: none;
       font-size: 20px;
-      font-weight: bold;
       color: white;
       cursor: pointer;
     }
