@@ -29,7 +29,7 @@ $base-navMobileColor: #849c7a;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px 50px 10px 25px;
+    padding: 10px 40px 10px 40px;
     color: $base-navColor;
     position: sticky;
     top: 0;
@@ -37,8 +37,9 @@ $base-navMobileColor: #849c7a;
     background: rgba(228, 240, 216, 0.7);
     backdrop-filter: blur(5px);
 
-    @media only screen and (max-width: 400px) {
-      padding: 10px 20px 10px 25px;
+    @media only screen and (max-width: 390px) {
+      padding-left: 20px;
+      padding-right: 20px;
     }
     a {
       color: $base-navColor;
@@ -54,7 +55,7 @@ $base-navMobileColor: #849c7a;
     ol {
       display: flex;
       list-style: none;
-      margin: 10px 0px;
+      margin-left: -60px;
 
       @media only screen and (max-width: 820px) {
         display: none;
@@ -111,7 +112,7 @@ $base-navMobileColor: #849c7a;
     &-menu {
       position: fixed;
       background: $base-navMobileColor;
-      top: -200vh;
+      top: -100vh;
       left: 0;
       right: 0;
       bottom: 0;
@@ -141,7 +142,6 @@ $base-navMobileColor: #849c7a;
           display: flex;
           flex-direction: column;
           text-align: center;
-          margin: 0 -10px;
 
           li {
             padding: 0 !important;

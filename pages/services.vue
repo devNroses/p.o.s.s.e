@@ -116,9 +116,9 @@ export default Vue.extend({
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding-left: 15px;
+    padding-left: 40px;
     padding-right: 40px;
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 390px) {
       padding-right: 20px;
     }
   }

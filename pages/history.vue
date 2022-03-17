@@ -116,13 +116,13 @@
   &-container {
     background-color: white;
     min-height: 100%;
-    padding-left: 15px;
+    padding-left: 40px;
     padding-right: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 390px) {
       padding-right: 20px;
     }
     h2 {
