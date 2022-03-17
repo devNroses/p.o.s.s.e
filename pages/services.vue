@@ -114,9 +114,13 @@ export default Vue.extend({
 .services {
   &-wrapper {
     display: flex;
-    padding: 25px;
     flex-direction: column;
     background-color: white;
+    padding-left: 15px;
+    padding-right: 40px;
+    @media only screen and (max-width: 400px) {
+      padding-right: 20px;
+    }
   }
 
   &-intro {
@@ -293,6 +297,7 @@ export default Vue.extend({
   font-size: 16px;
   height: 30px;
   margin-top: 12px;
+  margin-bottom: 12px;
   padding: 5px 16px;
   border: 1px transparent;
 

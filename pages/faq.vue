@@ -117,7 +117,7 @@
     justify-content: center;
 
     div {
-      max-width: 75%;
+      max-width: 95%;
     }
   }
 }

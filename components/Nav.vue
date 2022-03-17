@@ -29,7 +29,7 @@ $base-navMobileColor: #849c7a;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px 25px;
+    padding: 10px 50px 10px 25px;
     color: $base-navColor;
     position: sticky;
     top: 0;
@@ -37,6 +37,9 @@ $base-navMobileColor: #849c7a;
     background: rgba(228, 240, 216, 0.7);
     backdrop-filter: blur(5px);
 
+    @media only screen and (max-width: 400px) {
+      padding: 10px 20px 10px 25px;
+    }
     a {
       color: $base-navColor;
       font-size: 20px;

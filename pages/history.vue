@@ -116,11 +116,15 @@
   &-container {
     background-color: white;
     min-height: 100%;
-    padding: 25px;
+    padding-left: 15px;
+    padding-right: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+    @media only screen and (max-width: 400px) {
+      padding-right: 20px;
+    }
     h2 {
       text-align: center !important;
     }
@@ -176,7 +180,7 @@
 
   &-history {
     &-wrapper {
-      width: 65%;
+      width: 85%;
       display: flex;
       flex-wrap: wrap;
       padding: 15px;

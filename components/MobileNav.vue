@@ -17,7 +17,7 @@
           <li><NuxtLink to="/history">History</NuxtLink></li>
           <li><NuxtLink to="/services">Services</NuxtLink></li>
           <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
-          <li><a href="#contact_section">Contact</a></li>
+          <!-- <li><a href="#contact_section">Contact</a></li> -->
         </ol>
       </div>
     </div>
@@ -29,13 +29,13 @@ import Vue from "vue";
 export default Vue.extend({
   data() {
     return {
-      show: false
+      show: false,
     };
   },
   methods: {
     toggleShowMenu() {
       this.show = !this.show;
-    }
-  }
+    },
+  },
 });
 </script>
