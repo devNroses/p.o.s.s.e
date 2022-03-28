@@ -14,6 +14,7 @@
       <div class="nav-mobile-menu-list">
         <ol>
           <li><NuxtLink to="/">Home</NuxtLink></li>
+          <li><NuxtLink to="/bio">Bio</NuxtLink></li>
           <li><NuxtLink to="/history">History</NuxtLink></li>
           <li><NuxtLink to="/services">Services</NuxtLink></li>
           <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
