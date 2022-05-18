@@ -11,7 +11,7 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
-    "@paypal/paypal-js": "^5.0.2",
+    "@paypal/paypal-js": "^5.0.6",
     "core-js": "^3.16.0",
     "nuxt": "^2.15.7",
     "vue-easy-slider": "^5.3.4"
