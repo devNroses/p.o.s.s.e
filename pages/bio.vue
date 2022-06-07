@@ -6,38 +6,43 @@
         <div>
           <h2 class="pageTitle">Bio</h2>
           <p>
-            A native of San Diego, Marlena, fell in love with doing charitable
-            work for children through her various commitments to different
-            organizations. She loves reading and discovered the wonderful world
-            of books at a young age. Through reading, she wanted to change a
-            child's world. Her love for reading and reading to children made her
-            realize how important it is for children to be able to read. She
-            realized her deep appreciation for how non-profits can seek to
-            improve the quality of education for children and her continued
-            passion for charitable work lead her to want to make a difference in
-            a child's life. This passion developed even further when her son was
-            diagnosed with Dyslexia.
+            As a native of San Diego, I fell in love with doing charitable work
+            for children through various commitments with different
+            organizations. I believe that reading transforms a child's world.
+            Also, I believe that reading for children is a critical step in how
+            children can comprehend their world. I have a deep appreciation for
+            how non-profits can improve the quality of education for children
+            and I continued with my passion for charitable work to make a
+            difference in a child's educational career. My passion was deeply
+            developed when my son was diagnosed with Dyslexia and other Learning
+            Challenges.
           </p>
           <p>
-            Marlena loves to read five books at any given time depending on what
-            mood she is in for reading on that day. (Smile) She has been a
-            paralegal for 40 years working continuously in the legal field. She
-            began educating herself when she had to advocate for her son and the
-            insurmountable educational obstacles she had to overcome so that her
-            son would be able to read. She changed to Special Education Law and
-            became an Advocate working with Parents and their children for 15
-            years assisting parents to be able to find their voice and have a
-            seat at the IEP Meetings with knowledge and understanding in their
-            child's educational journey through the Individual Educational
-            Program (IEP). She graduated with a Certificate from the William and
-            Mary Law School Advocacy Program( lifetime Member of ISEA Alumni
-            Group) and continued her education with a Certificate from the
-            University of San Diego Law School Special Education Advocacy
-            Program. She is a member of Wright Law and is currently earning her
-            Certificate in the program at Wrights Law for the Bell Curve Reading
-            Tests and Assessments. She is a member of the Council of Parent
-            Attorneys and Advocates (COPAA), Inc. Her favorite pastime is
-            photography, dancing, and lip singing with her granddaughter.
+            My career as a paralegal spans 40 years working continuously in the
+            legal field. I began educating myself to advocate for my son when
+            faced with insurmountable obstacles in the educational system. My
+            focus became Special Education Law to become an advocate working
+            with parents and their children for 15 years assisting parents to be
+            able to find their voice and have a seat at IEP Meetings. I continue
+            to empower parents with knowledge and understanding in their child's
+            educational journey through the IEP Process.
+          </p>
+          <p>
+            My education includes graduating with a Certificate from the William
+            & Mary Law School Advocacy Program and remain a lifetime Member of
+            ISEA Alumni Group. I continued my education and graduated with a
+            Certificate from University of San Diego Law School Special
+            Education Advocacy Program and remain a lifetime Member of the
+            Alumni Group. I am a member and have taken courses through
+            Wrightslaw Special Education Law and Advocacy Training Programs and
+            I am currently earning a Certificate in the program at Wrightslaw--
+            Understanding the Bell Curve -- Tests and Assessments. Currently, I
+            am a member of Council of Parent Attorneys and Advocates (COPPA),
+            Inc.
+          </p>
+          <p>
+            My favorite pastimes are: photography, dancing and lip-syncing with
+            my grand-daughter.
           </p>
         </div>
         <div>
