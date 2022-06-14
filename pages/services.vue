@@ -8,7 +8,7 @@
     />
     <div class="services-wrapper">
       <div class="services-intro">
-        <h2 class="pageTitle">P.O.S.S.E. Services</h2>
+        <h2 class="pageTitle">Coaching Services</h2>
       </div>
       <div class="levelUp-wrapper" v-for="(service, i) of services" :key="i">
         <div class="levelUp-price">
@@ -28,7 +28,7 @@
         <p>
           {{ service.details }}
         </p>
-        <h4>Anticipated/Expected Outcome:</h4>
+        <h4>Instructions on How to Obtain Services</h4>
         <p>
           {{ service.anticipatedDetails }}
         </p>
@@ -50,16 +50,23 @@ export default Vue.extend({
     return {
       services: [
         {
-          name: "Level I: Consultation Phase",
-          price: "75",
-          details: `One hour Conference with Parent(s) to discuss in detail the child's educational background and performance through grade level. This will enable P.O.S.S.E. to fully understand the child's learning challenges and how this is affecting their productivity within the classroom setting and will be shared with parents.  We will discuss what an IEP should include. We will discuss the Referral, Identification and Eligibility of the child and role of Parents in the IEP Process.`,
-          anticipatedDetails: `Parents are familiarized with the IEP Process and can begin to understand the in-depth process of their child's educational needs and how this is affecting their productivity within the classroom setting presently. Parents are able to make an informed decision if our program is appropriate in assisting with their child's needs.`,
+          name: "Level I: Comprehensive Consultation  (75 minutes)",
+          price: "275",
+          details: `A comprehensive review of your child's records: to include last two IEP's, evaluations from private or public assessments, work samples and progress reports.  We will discuss what an IEP should include, the referral process, eligibility and role of Parents in the IEP Process. We will follow-up with a one hour virtual live coaching session to review the findings and outline a game plan. By the end of this session, you will have the tools necessary to advocate for your child at their present grade level.`,
+          anticipatedDetails: `If you have selected this Level of Service, please email me at: 
+marlena@possesandiego.org. In your email please include: Full Name, Address and Telephone Number; Child's Full Name; Grade level and School of Attendance. Please also include a brief description (no more than three paragraphs) what you feel is challenging for your child and their performance levels as you have observed so we can discuss in consultation/coaching session.  Please expect a 12 hour response time to set up either a Zoom meeting or in-office visit.`,
         },
         {
-          name: "Level II: Critical Assessment Phase",
-          price: "375",
-          details: `Obtain All Initial Assessments that have already been administered to the child by the School. Obtain all school records including all IEPs. Prepare Written Plan of Action within our program for Parent(s) to include the following: Present Levels of Performance (PLOP). This PLOP will include the Annual Goals, Benchmarks, Measuring and Reporting Progress that can be determined after records review and incorporated in the Plan of Action. Determine any unique needs that the child may have that are not identified by the school or on the IEP.  Determine what services the school has implemented to address each need; what will the child be able to accomplish as a result of the services that the school has placed on the IEP. This is critical because P.O.S.S.E. can determine if the child is receiving a FAPE. Detailed correspondence to School Principal/District to obtain ALL records, tests, assessments, protocols and IEPs through grade level from all schools of child's attendance.`,
-          anticipatedDetails: `Parents will be able to determine from this session whether the services on the IEP are projecting that the child is making Measurable Educational gains as provided under IDEA. Parents can determine after receiving their Written Plan of Action if our program is appropriate for their child and they wish to retain services of P.O.S.S.E. to assist. 
+          name: "Level II: General Special Education Advocacy Services",
+          price: "575",
+          details: `Up to 5 hours; Note if records are voluminous an additional fee may be required. 
+          We prepare  detailed correspondence to School Principal/District to obtain ALL records, tests, assessments, protocols and IEP's from all schools of your child's attendance. P.O.S.S.E will prepare a Written Plan of Action based on your child's file and records received to date; including the following: Determine where child is currently performing from their Present Levels of Performance (PLOP) according to the IEP. This PLOP will include the Annual Goals, Benchmarks, Measuring and Reporting Progress that can be determined after records review and incorporated in the Plan of Action. Determine any unique needs that the child may have that are not identified by the school or on the IEP. Determine what services the school has implemented to address each need; what will the child be able to accomplish as a result of the services that the school has placed on the IEP to determine if child is receiving a FAPE.`,
+          anticipatedDetails: `If you have selected this Level of Service, please email me at:
+marlena@possesandiego.org  Please include in your email dates and times that you are available to set up our Second Meeting and Review P.O.S.S.E.'s Written Plan of Action. Parent can take their Written Plan of Action and be prepared to address your  child's concerns, to effectively advocate for your child's needs. This can be an office visit, Zoom or Conference Call. 
+Level III: Targeted Special Education Advocacy Services $1500.00 up to six months of service: We provide eight parent Zoom training sessions in advocacy pertaining to your child's IEP. Parents will receive a P.O.S.S.E. IEP Tote Kit with parent notebook including worksheets for the entire school year. Pre-IEP Parent preparation for meetings. We will provide 6 months of service monitoring emails and providing resources to understand your rights and attending IEP meetings. We will fully prepare parents for each IEP meeting throughout the term of our services.
+Instructions on How to Obtain Services 
+If you have selected this Level of Service, please email me at 
+marlena@possesandiego.org. We will respond in 12 hours and advise our next steps. 
 `,
         },
         {
@@ -69,13 +76,11 @@ export default Vue.extend({
           anticipatedDetails: `Parents through the program are now thoroughly trained and equipped with the understanding of how the special education system works and are able to advocate for their child.  Parents will have skill sets as an advocator to communicate effectively and in collaboration with the school and maintain a professional relationship. Parents will know the right questions to ask. Parents will be prepared, organized and ready to attend the meetings. Parents will be able to express their child's needs in a clear and concise manner. Parents will learn how to communicate effectively with teachers and other school personnel to create an effective learning environment for their child and to ensure that their child's school is providing the services or programs that he or she needs to succeed in school. Parents will be empowered with knowing their rights as a Parent.`,
         },
         {
-          name: "Level IV: Prepare Detailed Timeline Chart of Child's Educational Records",
+          name: "Level IV: Full School Year Special Education (10 month school year)",
           price: "3800",
-          details: `Parents are now proficient in the IEP Process and can continue on their own to be effective advocates for their child.  Certificate of Completion as having acquired the skill set level of an effective advocator for their child.  Parents have the opportunity to pay a membership fee for continued services for P.O.S.S.E. to assist with all future IEP's for their child through 12th grade and assistance with College Preparatory Services with P.O.S.S.E.'s affiliate company.  Services of all above. Continued Training with P.O.S.S.E and Parent in advocacy skills for their child's IEP services; Classroom observations if applicable; Visits for on campus sites regarding appropriate placement per the goals and objectives on the IEP.  Attendance at all IEP Meetings (Zoom or in person); P.O.S.S.E. takes Notes from IEP Meetings for Parents to add as an Addendum to meeting Notes; Review Draft IEP with Parents and continue until Final IEP is in place for the child.  Assistance with Transitional services for child if appropriate; Assistance with Extended School Year.  Assistance with preparing Transition Assessments for future preparation for getting a job, college or living independently. Assistance with Transition Assessments is a step to helping your child set goals in the future. Parents will be provided a USB data entry stick to enter data on their Child's Timeline Chart and training on data entry.  P.O.S.S.E. will assist and attend for Mediation Sessions with Parent.`,
-          anticipatedDetails: `Parents are now trained to be an effective advocate for their child
-          until graduation and can determine if services provided by the school
-          are meeting the child’s needs and is the school providing a FAPE [Free
-          Appropriate Public Education].`,
+          details: `We will provide special education advocacy services for the entire school year. P.O.S.S.E. personally advocates for your child includes all Levels of Services addressed above.  This includes attending all IEP Meetings with parent; parent preparation for IEP meetings with Parent Checklist/Concerns. Review emails and responses. Includes assistance with Extended School Year services. Classroom observations, if applicable; Visits for on campus sites regarding appropriate placement per the goals and objectives on the IEP.  P.O.S.S.E. takes Notes from IEP Meetings for Parents to add as an Addendum to meeting Notes; Review Draft IEP with Parents and continue until Final IEP is in place for your child with Placement. Assistance with Transitional services for child if appropriate. Prepare for and attend Transition Assessment and attendance at Transition IEP meeting. Parent will receive Child's Individualized Timeline of entire school records for advocacy tool and will be trained on how to use and keep Timeline current for your child's educational journey. By the end of this package parents will be able to advocate for the upcoming school years on their own. This service does not exceed 10 months.  If additional coaching sessions are needed an additional $100.00 per hour is required.`,
+          anticipatedDetails: `If you have selected this Level of Service, please email me at:
+marlena@possesandiego.org.  Your email will be answered within 12 hours and we will send you what is needed, signed authorizations for P.O.S.S.E.`,
         },
       ],
       shoppingCart: [],
@@ -278,11 +283,12 @@ export default Vue.extend({
   &-name {
     min-width: 380px;
     max-width: 580px;
+    font-weight: 600;
   }
 }
 
 .price {
-  color: #849c7a;
+  color: #383f34;
   font-size: 24px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
