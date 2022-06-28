@@ -28,6 +28,6 @@
     "fibers": "^5.0.0",
     "node-sass": "^6.0.1",
     "sass": "^1.49.9",
-    "sass-loader": "^10.1.1"
+    "sass-loader": "^13.0.2"
   }
 }
